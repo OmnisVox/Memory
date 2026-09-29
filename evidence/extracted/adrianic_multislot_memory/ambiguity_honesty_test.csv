@@ -1,0 +1,7 @@
+query,target,trusted_phase,selected,held_unresolved,correct,mode
+A_intact,0,True,0.0,False,1.0,phase_disambiguated
+B_intact,1,True,1.0,False,1.0,phase_disambiguated
+A_phase_wipe,0,False,,True,,amplitude_only_hold_if_tied
+B_phase_wipe,1,False,,True,,amplitude_only_hold_if_tied
+A_random_phase,0,False,,True,,amplitude_only_hold_if_tied
+B_random_phase,1,False,,True,,amplitude_only_hold_if_tied

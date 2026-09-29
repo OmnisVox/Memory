@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "name": "ARCHITECTURE_NOTES.md",
+      "bytes": 1392,
+      "sha256": "7fbd1e0164892a18abd41ff6728503d94d7240fc8323227acae16eed717a6ace"
+    },
+    {
+      "name": "INTEGRATION_CHECKLIST.md",
+      "bytes": 1708,
+      "sha256": "3e7736d53c1bb04143e2d4dd71e9361f3dc79af124851b9d41d03f2ebec4f422"
+    },
+    {
+      "name": "README.md",
+      "bytes": 10231,
+      "sha256": "c95c14b75fd43238698147fa4ce1e5b6c012783fb1d0886b2e518ef2462e2bb7"
+    },
+    {
+      "name": "example_adapter.py",
+      "bytes": 1898,
+      "sha256": "a7cea33beb3e3804f6fbfe363fc7f6af4f681e63e6409c598bc44c4b4f48eb5b"
+    },
+    {
+      "name": "relational_memory.py",
+      "bytes": 9887,
+      "sha256": "217652ed9eba7f158c97e01dd6c1fc036e7221c3d3e33e4baf255f3d6eb8e26d"
+    },
+    {
+      "name": "smoke_test.py",
+      "bytes": 988,
+      "sha256": "42f7ca637f5cfdb5d89bbc43455676472a9f19ce8f6b5fed4c35e497671706c6"
+    }
+  ]
+}

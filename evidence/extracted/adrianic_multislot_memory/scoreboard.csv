@@ -1,0 +1,9 @@
+test,score
+24 slots: complete phase wipe,1.0
+24 slots: 50% dropout,1.0
+24 slots: mixed corruption,0.984375
+48 slots: complete phase wipe,1.0
+48 slots: 50% dropout,1.0
+48 slots: mixed corruption,0.984375
+48 slots: amplitude noise,0.9140625
+8-slot utility policy: hit rate,0.7291

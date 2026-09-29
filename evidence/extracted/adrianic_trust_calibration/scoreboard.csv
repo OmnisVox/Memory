@@ -1,0 +1,12 @@
+metric,value
+equal-source utility capture,0.6702862521649492
+learned-trust utility capture,0.7798270237674011
+oracle-weight utility capture,0.8258456517349945
+learned A reliability,0.892865413434905
+learned adversarial C reliability,0.24550315397340017
+2% verification utility capture,0.7160250275129179
+30% verification utility capture,0.782209234534153
+"collusion, 2% verify, uncapped",0.5844817222415625
+"collusion, 2% verify, provenance capped",0.6685120353203694
+"reversal late capture, frozen trust",0.7007610448680134
+"reversal late capture, adaptive trust",0.8182438011984227

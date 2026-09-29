@@ -1,0 +1,256 @@
+{
+  "task": {
+    "environment": "Adrianic-like nonlinear fast field psi plus slow field phi",
+    "behavior": "choose context-dependent control action +1 or -1",
+    "memory_requirement": "context cue is only visible at the start of each episode; correct action is still required after the cue disappears",
+    "distractors": "short transient contexts that should not be consolidated",
+    "memory_damage": "one consolidated bank is corrupted mid-run; behavior continues",
+    "score": "behavioral action accuracy/reward, not field reconstruction error"
+  },
+  "architecture": {
+    "persistent_roles": [
+      "active field",
+      "working memory",
+      "bank A",
+      "bank B",
+      "confidence",
+      "parity P",
+      "parity Q"
+    ],
+    "adaptive_consolidation_gate": [
+      "working memory trusted",
+      "recent reward high",
+      "recent reward stable",
+      "context belief stable",
+      "candidate sufficiently novel",
+      "minimum spacing since last commit"
+    ],
+    "checkpoint_policy": "overwrite one older/weaker bank at a time, then re-encode parity",
+    "parity": "P=A+B, Q=A+1.7B in compact context-memory space"
+  },
+  "agent_summary": [
+    {
+      "agent": "adaptive",
+      "blank_accuracy_median": 0.9908045977011494,
+      "blank_reward_median": 0.9167675799048773,
+      "distractor_accuracy_median": 0.7037037037037037,
+      "late_accuracy_median": 0.9904214559386973,
+      "commits_median": 24.0
+    },
+    {
+      "agent": "periodic",
+      "blank_accuracy_median": 0.996551724137931,
+      "blank_reward_median": 0.9239445640878989,
+      "distractor_accuracy_median": 0.7222222222222222,
+      "late_accuracy_median": 0.9961685823754789,
+      "commits_median": 18.0
+    },
+    {
+      "agent": "working_only",
+      "blank_accuracy_median": 0.9908045977011494,
+      "blank_reward_median": 0.9167675799048773,
+      "distractor_accuracy_median": 0.7037037037037037,
+      "late_accuracy_median": 0.9904214559386973,
+      "commits_median": 24.0
+    },
+    {
+      "agent": "no_memory",
+      "blank_accuracy_median": 0.3741379310344828,
+      "blank_reward_median": -0.13014727314027852,
+      "distractor_accuracy_median": 0.46296296296296297,
+      "late_accuracy_median": 0.3706896551724138,
+      "commits_median": 0.0
+    }
+  ],
+  "consolidation_selectivity": [
+    {
+      "agent": "adaptive",
+      "fraction_commits_during_distractors_median": 0.043478260869565216
+    },
+    {
+      "agent": "periodic",
+      "fraction_commits_during_distractors_median": 0.16666666666666666
+    }
+  ],
+  "remapped_sensor_generalization": {
+    "median_blank_accuracy": 0.9892241379310345,
+    "scores": [
+      0.9913793103448276,
+      0.9885057471264368,
+      0.9956896551724138,
+      0.9899425287356322,
+      0.992816091954023,
+      0.9870689655172413,
+      0.9870689655172413,
+      0.9870689655172413,
+      0.9841954022988506,
+      0.9913793103448276,
+      0.9899425287356322,
+      0.9841954022988506,
+      0.9913793103448276,
+      0.985632183908046,
+      0.9885057471264368,
+      0.992816091954023,
+      0.9885057471264368,
+      0.9956896551724138,
+      0.9885057471264368,
+      0.9913793103448276
+    ]
+  },
+  "guardrails": [
+    "This is a behavioral control task rather than a direct reconstruction target.",
+    "The task/controller coupling is still designed; success is not spontaneous cognition.",
+    "The consolidation gate is transparent and hand-designed, not learned end-to-end.",
+    "The environment uses the Adrianic fast/slow nonlinear field form, but this is still a compact 1D task instantiation rather than the full canonical PDE suite.",
+    "A stronger next test would learn the consolidation policy from held-out tasks or transfer the frozen policy to substantially different field regimes."
+  ],
+  "hard_behavioral_stress_test": {
+    "design": {
+      "true_context": "fixed for each 150-step block",
+      "false_cue": "12-step opposite-sign transient cue mid-block; true task context does not change",
+      "working_interference": "working memory is erased after the false cue",
+      "bank_damage": "one consolidated bank is corrupted later in the run",
+      "purpose": "force consolidation and parity to affect downstream behavior rather than merely reconstruction"
+    },
+    "summary": [
+      {
+        "agent": "adaptive_parity",
+        "blank_accuracy_median": 0.775,
+        "post_interference_accuracy_median": 1.0,
+        "post_bank_damage_accuracy_median": 0.7758064516129033,
+        "false_cue_resistance_median": 0.95,
+        "false_cue_commit_fraction_median": 0.23076923076923078,
+        "commits_median": 13.0
+      },
+      {
+        "agent": "adaptive_no_parity",
+        "blank_accuracy_median": 0.771774193548387,
+        "post_interference_accuracy_median": 1.0,
+        "post_bank_damage_accuracy_median": 0.7741935483870968,
+        "false_cue_resistance_median": 0.95,
+        "false_cue_commit_fraction_median": 0.23076923076923078,
+        "commits_median": 13.0
+      },
+      {
+        "agent": "periodic_parity",
+        "blank_accuracy_median": 0.6693548387096775,
+        "post_interference_accuracy_median": 0.7,
+        "post_bank_damage_accuracy_median": 0.6241935483870967,
+        "false_cue_resistance_median": 0.9416666666666667,
+        "false_cue_commit_fraction_median": 0.08,
+        "commits_median": 25.0
+      },
+      {
+        "agent": "working_only",
+        "blank_accuracy_median": 0.7766129032258065,
+        "post_interference_accuracy_median": 1.0,
+        "post_bank_damage_accuracy_median": 0.7758064516129033,
+        "false_cue_resistance_median": 0.95,
+        "false_cue_commit_fraction_median": 0.23076923076923078,
+        "commits_median": 13.0
+      },
+      {
+        "agent": "no_memory",
+        "blank_accuracy_median": 0.42620967741935484,
+        "post_interference_accuracy_median": 0.49893617021276593,
+        "post_bank_damage_accuracy_median": 0.42258064516129035,
+        "false_cue_resistance_median": 0.0,
+        "false_cue_commit_fraction_median": 0.0,
+        "commits_median": 0.0
+      }
+    ]
+  },
+  "corrected_hard_behavioral_test": {
+    "changes": [
+      "working-only control now truly has no consolidated banks",
+      "both consolidated banks are corrupted late in the task while parity is preserved",
+      "working memory is repeatedly wiped, forcing durable-memory recall",
+      "consolidation is scored by whether the stored action preference matches the true context"
+    ],
+    "summary": [
+      {
+        "agent": "adaptive_parity",
+        "blank_accuracy_median": 0.7745967741935484,
+        "immediate_post_working_wipe_accuracy_median": 1.0,
+        "post_double_bank_damage_accuracy_median": 0.7686567164179104,
+        "bad_consolidation_rate_median": 0.0,
+        "commits_median": 12.5
+      },
+      {
+        "agent": "adaptive_no_parity",
+        "blank_accuracy_median": 0.7737903225806452,
+        "immediate_post_working_wipe_accuracy_median": 1.0,
+        "post_double_bank_damage_accuracy_median": 0.7669983416252073,
+        "bad_consolidation_rate_median": 0.0,
+        "commits_median": 12.5
+      },
+      {
+        "agent": "periodic_parity",
+        "blank_accuracy_median": 0.667741935483871,
+        "immediate_post_working_wipe_accuracy_median": 0.7,
+        "post_double_bank_damage_accuracy_median": 0.615257048092869,
+        "bad_consolidation_rate_median": 0.24,
+        "commits_median": 25.0
+      },
+      {
+        "agent": "working_only",
+        "blank_accuracy_median": 0.3870967741935484,
+        "immediate_post_working_wipe_accuracy_median": 0.0,
+        "post_double_bank_damage_accuracy_median": 0.36981757877280264,
+        "bad_consolidation_rate_median": 0.0,
+        "commits_median": 0.0
+      },
+      {
+        "agent": "no_memory",
+        "blank_accuracy_median": 0.4245967741935484,
+        "immediate_post_working_wipe_accuracy_median": 0.5125,
+        "post_double_bank_damage_accuracy_median": 0.4369817578772802,
+        "bad_consolidation_rate_median": 0.0,
+        "commits_median": 0.0
+      }
+    ]
+  },
+  "parity_behavior_probe": {
+    "protocol": [
+      "train on one stable hidden context with misleading transient cues",
+      "erase working memory and cue belief",
+      "randomize last volatile action state",
+      "corrupt both consolidated data banks",
+      "leave parity fields intact",
+      "remove sensory cue and score action accuracy",
+      "freeze new consolidation during retrieval"
+    ],
+    "summary": [
+      {
+        "agent": "adaptive_parity",
+        "cold_start_accuracy_mean": 1.0,
+        "cold_start_accuracy_median": 1.0,
+        "success_fraction_over_0_8": 1.0
+      },
+      {
+        "agent": "adaptive_no_parity",
+        "cold_start_accuracy_mean": 0.48333333333333334,
+        "cold_start_accuracy_median": 0.0,
+        "success_fraction_over_0_8": 0.48333333333333334
+      },
+      {
+        "agent": "periodic_parity",
+        "cold_start_accuracy_mean": 0.0,
+        "cold_start_accuracy_median": 0.0,
+        "success_fraction_over_0_8": 0.0
+      },
+      {
+        "agent": "working_only",
+        "cold_start_accuracy_mean": 0.48333333333333334,
+        "cold_start_accuracy_median": 0.0,
+        "success_fraction_over_0_8": 0.48333333333333334
+      },
+      {
+        "agent": "no_memory",
+        "cold_start_accuracy_mean": 0.4666666666666667,
+        "cold_start_accuracy_median": 0.0,
+        "success_fraction_over_0_8": 0.4666666666666667
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+hard_value,policy,exact_charge_signature_rate,slot_pos_median,slot_neg_median,slot_net_median
+False,auto,0.1375,0.0,1.0,0.0
+False,gate_0.28,0.1625,0.0,1.0,0.0
+True,auto,0.1625,0.0,1.0,0.0
+True,gate_0.28,0.1625,0.0,1.0,0.0

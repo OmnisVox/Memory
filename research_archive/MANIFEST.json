@@ -1,0 +1,191 @@
+{
+  "archive": "Adrianic Memory Architecture \u2014 lineage-preserving project archive",
+  "assembled_at_utc": "2026-08-03T13:12:18.471623Z",
+  "file_count": 46,
+  "files": {
+    "ARCHITECTURE_MAP.md": {
+      "bytes": 3215,
+      "sha256": "a63e9591842c91ddc0f342e7c9751663f541fa70f2dd628c87ec2ed6e453267b"
+    },
+    "LINEAGE.md": {
+      "bytes": 3513,
+      "sha256": "14286034c34981e1fa904c043d2cd364490f5f2f39af3df0a6be7f56c40a697f"
+    },
+    "README.md": {
+      "bytes": 2936,
+      "sha256": "56062076b8ba34e1ada2918a9ba6c3ccecd80817e94377a5caf08602ee002913"
+    },
+    "STATUS_AND_BOUNDARIES.md": {
+      "bytes": 1751,
+      "sha256": "4099dec7c457c21835a5853c95a2f37bd1404105d733e620c1c0061cee35b47a"
+    },
+    "core_primitives/causal_replacement_patch.tex": {
+      "bytes": 591,
+      "sha256": "4ba0c13253ca6d4b4bac9d2ae0cbfbbd1e5c6a13aa3bed24c6d9314291631977"
+    },
+    "core_primitives/evidence_graph_patch.tex": {
+      "bytes": 2143,
+      "sha256": "d45c6d1298e5e1f639a2089fa88d51952b2a5fcc4702c504cbd2d363e404f8fd"
+    },
+    "core_primitives/memory_controller_patch.tex": {
+      "bytes": 1483,
+      "sha256": "441073d7a91f6789e6f8ad3d751b54dcb27e2ed8a8a9c01380025b86056df0cd"
+    },
+    "core_primitives/messy_world_memory_patch.tex": {
+      "bytes": 987,
+      "sha256": "48b6859b632799183130d5b80faa555298aca0462e2bc19ddfe42fdf23b9586f"
+    },
+    "core_primitives/multislot_memory_patch.tex": {
+      "bytes": 2037,
+      "sha256": "57c8ac8e7c7417d0e13d71e2562106d1da00790d7b05a4d1cf07c9ad7d05b2a3"
+    },
+    "core_primitives/trust_calibration_patch.tex": {
+      "bytes": 1304,
+      "sha256": "bc3025597dd58c42a69876008bdcd5231c0bce5778c4eb0b7df7fe629a0bb7a5"
+    },
+    "core_primitives/v3_1_complex_memory_patch.tex": {
+      "bytes": 1144,
+      "sha256": "cf26b2a2791ccbe4fc8e7dd724bca586176c700f86528a15a943a93ef4384d24"
+    },
+    "developmental_controller/Adrianic_v3_8_Parity_Coalition_Structural_Plasticity_Lab_EXECUTED.ipynb": {
+      "bytes": 52779,
+      "sha256": "77bab69516f323759c5ab48c70aac98cec82bc96651038f680f386920a2cb1ec"
+    },
+    "developmental_controller/Developmental_Agent_Action_Conditioned_Structural_Induction_Lab_v11.ipynb": {
+      "bytes": 125366,
+      "sha256": "050768113337bd2aaeba41037470e28b941b3f5f182514b7634e869f0a570057"
+    },
+    "developmental_controller/Developmental_Agent_Informational_Softwalls_Lab_v10.ipynb": {
+      "bytes": 105819,
+      "sha256": "67fe51e646f10a3ec9db71326021e37f427ef170301d29329ddbb04e86f244cb"
+    },
+    "developmental_controller/MISSING_v3_15_SOURCE.md": {
+      "bytes": 569,
+      "sha256": "0f3005d614934b20c2486fee08471e3fd3ce9b8036688619a8e2455d9b7e9341"
+    },
+    "evidence_reports/MEMORY_TIMESCALE_REPORT.md": {
+      "bytes": 6489,
+      "sha256": "78af8745ba339a6d37fb2ddee9eee8df56a72aaa1a3023ed7a903131ca05fb26"
+    },
+    "evidence_reports/MULTISLOT_MEMORY_REPORT.md": {
+      "bytes": 10243,
+      "sha256": "3340cc6c46545a5447d172c59dd4156c08e69dd6befbcb3f92bb5a1781c83479"
+    },
+    "evidence_reports/SELECTIVE_COMMIT_REPORT.md": {
+      "bytes": 8428,
+      "sha256": "6952cbfcb009f7d33d2146f312b090b553768c0d1b941a8d89cba43cabcdb219"
+    },
+    "evidence_reports/Selective commit cuts permanent-memory churn.png": {
+      "bytes": 22644,
+      "sha256": "96250d3dbfab3ebac92b8aaa1ffb17678305e8d8542a0072d21b05085990320b"
+    },
+    "evidence_reports/fault_coupled_search_top10.png": {
+      "bytes": 93254,
+      "sha256": "1bcf03e1d93028ad190b56636a0eb5cf72991ad620ecf2c050de6da78f290026"
+    },
+    "legacy_reference/spectral_governor_v6_legacy.py": {
+      "bytes": 76901,
+      "sha256": "c48bbff909fa9055c3472728672e15bcd70617c35020f95bd540f5ebcd5d4d3a"
+    },
+    "relational_sidecar/ARCHITECTURE_NOTES.md": {
+      "bytes": 1392,
+      "sha256": "7fbd1e0164892a18abd41ff6728503d94d7240fc8323227acae16eed717a6ace"
+    },
+    "relational_sidecar/INTEGRATION_CHECKLIST.md": {
+      "bytes": 1708,
+      "sha256": "3e7736d53c1bb04143e2d4dd71e9361f3dc79af124851b9d41d03f2ebec4f422"
+    },
+    "relational_sidecar/README.md": {
+      "bytes": 10231,
+      "sha256": "c95c14b75fd43238698147fa4ce1e5b6c012783fb1d0886b2e518ef2462e2bb7"
+    },
+    "relational_sidecar/example_adapter.py": {
+      "bytes": 1898,
+      "sha256": "a7cea33beb3e3804f6fbfe363fc7f6af4f681e63e6409c598bc44c4b4f48eb5b"
+    },
+    "relational_sidecar/relational_memory.py": {
+      "bytes": 9887,
+      "sha256": "217652ed9eba7f158c97e01dd6c1fc036e7221c3d3e33e4baf255f3d6eb8e26d"
+    },
+    "relational_sidecar/smoke_test.py": {
+      "bytes": 988,
+      "sha256": "42f7ca637f5cfdb5d89bbc43455676472a9f19ce8f6b5fed4c35e497671706c6"
+    },
+    "semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab.ipynb": {
+      "bytes": 31679,
+      "sha256": "db04e5198a942ca576102d9114c3daba557e8ce63bdbd3ed62884edc92f44208"
+    },
+    "semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab_COLAB_FIXED.ipynb": {
+      "bytes": 32715,
+      "sha256": "421e1a4e03a9b0271b7a4b37f158536b3f3a2fa01985a8b6c1a49e36b021a86c"
+    },
+    "semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab_COLAB_GPU_SAFE.ipynb": {
+      "bytes": 31266,
+      "sha256": "644a861d8d5223aa56de5053b8eb1974b409daa83ff19156b19693b50931b297"
+    },
+    "semantic_lineage/v4/Adrianic_v4_1_Order_Interleaving_Semantic_Transfer_COLAB_SAFE.ipynb": {
+      "bytes": 40598,
+      "sha256": "2f081b7ad03355f37618c7aeb71accbef41928d709a6002cda73ea288c61b76e"
+    },
+    "semantic_lineage/v4/Adrianic_v4_2_Semantic_Compositional_Probe_COLAB_SAFE.ipynb": {
+      "bytes": 25979,
+      "sha256": "65dd5f855bd908342161f2c382bcc7cdc3a48cdcebdd47eddd5739f8819893f0"
+    },
+    "semantic_lineage/v4/Adrianic_v4_3_Binding_GraphFactor_FieldGate_COLAB_SAFE.ipynb": {
+      "bytes": 50163,
+      "sha256": "035a90fd80e89850fa22fc97d8d7e2c053407a641e226a228893d257b366a5fd"
+    },
+    "semantic_lineage/v4/Adrianic_v4_4_MultiConsequence_AdaptiveBinding_COLAB_SAFE.ipynb": {
+      "bytes": 73094,
+      "sha256": "6485aec4eb46b51881769c3f80d848d838bb5cbb70bc171f109bc88c0a4dbaa1"
+    },
+    "semantic_lineage/v4/Adrianic_v4_5_MultiAccess_IdentityBinding_COLAB_SAFE.ipynb": {
+      "bytes": 91676,
+      "sha256": "3b29b6e928fde0020d1a59b12ebfc0b20a034d609a2f6e0551e67d975fa284f8"
+    },
+    "semantic_lineage/v4/Adrianic_v4_6_VariableDepth_IdentityPath_COLAB_SAFE.ipynb": {
+      "bytes": 111494,
+      "sha256": "dab91b15d2c0b87a61d350291086f6c6c031cc74603a11635dcd4942dd0bb1fb"
+    },
+    "semantic_lineage/v4/Adrianic_v4_7_LongHorizon_IdentityDepthFrontier_COLAB_SAFE.ipynb": {
+      "bytes": 144280,
+      "sha256": "d3c1dd012c798be3d84ef024388e622777bae70b3c8cba030a2458d7845cde38"
+    },
+    "semantic_lineage/v4/Adrianic_v4_8_AmbiguousTopology_EndogenousStopping_COLAB_SAFE.ipynb": {
+      "bytes": 204241,
+      "sha256": "0d12a97326a2bef740b51489cb7f8c5592edf2c70e6ccf6965b53942d74d248f"
+    },
+    "semantic_lineage/v4/Adrianic_v4_9_SymmetricDecoy_ConsequenceArbitration_COLAB_SAFE.ipynb": {
+      "bytes": 60563,
+      "sha256": "8cb625db472b4bedd2a2449010747d128ca0e2b402afbf49632730795dea3d07"
+    },
+    "semantic_lineage/v5/Adrianic_v5_1_EntityCoreference_SemanticGovernance_COLAB_SAFE.ipynb": {
+      "bytes": 59984,
+      "sha256": "968cfcc3e92f5086b8b437a4e81105afe8af92b5d2dc0054350c4ec673027785"
+    },
+    "semantic_lineage/v5/README.md": {
+      "bytes": 3498,
+      "sha256": "ab3ede72e059c1b3489d543fa3e1c365800108cc250e03ecfe901667eb368c77"
+    },
+    "semantic_lineage/v5/common_v51.py": {
+      "bytes": 35988,
+      "sha256": "d2e79376df5e9cce7f44a44f73d67d1b160aa7887c1fd13bdb3429bfe625e1a8"
+    },
+    "semantic_lineage/v5/v53_progressive_recall.py": {
+      "bytes": 9369,
+      "sha256": "3adfbddca83cbb46f680a5786515789157530856f876ead70ace72401bde909f"
+    },
+    "semantic_lineage/v5/v54_learned_mention_roles.py": {
+      "bytes": 9164,
+      "sha256": "9b3d3cdf0b645cab51348df0b1dd8e3d76d52fe49f62633f8b53d1f1f280217e"
+    },
+    "semantic_lineage/v5/v55_consequence_ontology_growth.py": {
+      "bytes": 6716,
+      "sha256": "4c745c637702334c722a4d9526c53f711e4b6e17b362e08e359f0ab909a92bf8"
+    },
+    "tools/verify_archive.py": {
+      "bytes": 1189,
+      "sha256": "30692e961191e3e823b93d96dc371e86dbd610cfa40e4c53f81ee2acde71f468"
+    }
+  }
+}

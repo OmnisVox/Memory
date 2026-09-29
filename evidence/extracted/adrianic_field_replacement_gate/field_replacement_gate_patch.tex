@@ -1,0 +1,67 @@
+
+% Complex-field comparative replacement + dual memory representation
+
+\subsection{Honest Address Resolution}
+
+Resolve a permanent address only when both
+\[
+D_{(1)} < D_{\max}
+\]
+and
+\[
+D_{(2)}-D_{(1)} > \Delta_D.
+\]
+Otherwise return unresolved.
+
+\subsection{Comparative Replacement}
+
+For retained slot j:
+\[
+R_j =
+U_j\sqrt{\log(1+n_j)}
+\frac{1}{1+\alpha a_j}.
+\]
+
+For candidate c:
+\[
+C_c =
+U_c(0.65+0.35S_c)(0.75+0.25Q_c).
+\]
+
+If the bank is full, replace the weakest retained slot only when
+\[
+C_c-\min_j R_j > m_R.
+\]
+
+\subsection{Dual Representation}
+
+Maintain separately
+\[
+\bar{\mathbf v}_c
+=
+\text{averaged robust address vector}
+\]
+and
+\[
+\chi_c
+=
+\text{best topology-qualified complex observation}.
+\]
+
+Do not arithmetic-average complex phase templates merely because their phase-agnostic
+address vectors belong to the same candidate.
+
+A candidate may be ADDRESS_READY while remaining TEMPLATE_UNRESOLVED.
+
+\subsection{Robust Winding Validation}
+
+For a finite loop C enclosing a recovered core,
+\[
+W_C =
+\frac{1}{2\pi}
+\sum_{k\in C}
+\arg(\psi_{k+1}\psi_k^*).
+\]
+
+Use finite-loop winding for recall validation rather than exact global microscopic
+plaquette-defect equality near amplitude singularities.

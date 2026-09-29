@@ -1,0 +1,20 @@
+{
+  "version": "0.3.0-checkpoint",
+  "date": "2026-08-03",
+  "regression_tests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "compile_check": "PASS",
+  "original_bundle_integrity": "PASS",
+  "v315_winner_check": "PASS",
+  "canonical_smoke": "PASS",
+  "field_configuration_smoke": "PASS",
+  "original_reruns": {
+    "v3_18": "PASS exact results.json reproduction",
+    "v3_21": "PASS exact results.json reproduction",
+    "evidence_graph_v3_anchor_filter": "PASS exact aggregate reproduction",
+    "v3_19": "NOT_COMPLETED_LOCAL_TIMEOUT",
+    "field_replacement_integration_base": "NOT_COMPLETED_LOCAL_TIMEOUT_45S"
+  }
+}

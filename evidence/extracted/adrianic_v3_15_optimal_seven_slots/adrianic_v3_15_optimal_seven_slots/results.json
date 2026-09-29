@@ -1,0 +1,1713 @@
+{
+  "fixed": [
+    "active",
+    "working",
+    "bankA",
+    "bankB"
+  ],
+  "candidates": [
+    "derivative",
+    "predictor",
+    "spin",
+    "confidence",
+    "parityP",
+    "parityQ"
+  ],
+  "ranked": [
+    {
+      "trio": "derivative+predictor+confidence",
+      "score": 0.9311820234216827
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "score": 0.9307833360014092
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "score": 0.9307833360014092
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "score": 0.9300889219284068
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "score": 0.9233353004142492
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "score": 0.9233353004142492
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "score": 0.9233353004142492
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "score": 0.9227744350446646
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "score": 0.9227744350446646
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "score": 0.9227744350446646
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "score": 0.7733848572655921
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "score": 0.7733848572655921
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "score": 0.7732715556659265
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "score": 0.7720430680341607
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "score": 0.7719300317584136
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "score": 0.7719300317584136
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "score": 0.7690934858058285
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "score": 0.7678571952158405
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "score": 0.7678571952158405
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "score": 0.7678571952158405
+    }
+  ],
+  "heldout": [
+    {
+      "trio": "derivative+predictor+confidence",
+      "heldout_score": 0.9283217536334425
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "heldout_score": 0.9281173957835122
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "heldout_score": 0.9279582526151938
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "heldout_score": 0.9279582526151938
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "heldout_score": 0.9199537117167847
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "heldout_score": 0.9199537117167847
+    }
+  ],
+  "marginals": [
+    {
+      "feature": "derivative",
+      "delta": -0.03246431875008815
+    },
+    {
+      "feature": "predictor",
+      "delta": -0.025221225872908426
+    },
+    {
+      "feature": "spin",
+      "delta": -0.03257261311170334
+    },
+    {
+      "feature": "confidence",
+      "delta": 0.15525573505281998
+    },
+    {
+      "feature": "parityP",
+      "delta": -0.032498788659060196
+    },
+    {
+      "feature": "parityQ",
+      "delta": -0.032498788659060196
+    }
+  ],
+  "detail": [
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "active_damage",
+      "score": 0.5465443397013221
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "active_plus_working",
+      "score": 0.4625202809136193
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "single_bank",
+      "score": 0.9994619094690551
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "double_bank",
+      "score": 0.9994619094690551
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "predictive_occlusion",
+      "score": 0.6061423338583345
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "silent_bank_drift",
+      "score": 0.9994619094690551
+    },
+    {
+      "trio": "derivative+predictor+spin",
+      "challenge": "legitimate_shift",
+      "score": 0.9997226529087471
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "active_damage",
+      "score": 0.8258213501058225
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "active_plus_working",
+      "score": 0.8401238276601755
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "single_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "double_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "predictive_occlusion",
+      "score": 0.9111613655567008
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+confidence",
+      "challenge": "legitimate_shift",
+      "score": 0.9997410142661552
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "active_damage",
+      "score": 0.546393472608671
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.45727623725800726
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "single_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "double_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.6042211868085974
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9997410142661552
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "active_damage",
+      "score": 0.546393472608671
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.45727623725800726
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.6042211868085974
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993358928881543
+    },
+    {
+      "trio": "derivative+predictor+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9997410142661552
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "active_damage",
+      "score": 0.8023566276418141
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "active_plus_working",
+      "score": 0.8201039182801332
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031331108767986
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+confidence",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "active_damage",
+      "score": 0.5295008317370867
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.45253020679923245
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.5997521490841893
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "active_damage",
+      "score": 0.5295008317370867
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.45253020679923245
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.5997521490841893
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "derivative+spin+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "active_damage",
+      "score": 0.8041911367558013
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.8217546799335
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "single_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "double_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031637610626444
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9996519910977161
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "active_damage",
+      "score": 0.8041911367558013
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.8217546799335
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031637610626444
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+confidence+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9996519910977161
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "active_damage",
+      "score": 0.5409154838466415
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.4499279767150487
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.6003980018210098
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "derivative+parityP+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9996519910977161
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "active_damage",
+      "score": 0.822376918904983
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "active_plus_working",
+      "score": 0.8371880666987255
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "single_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "double_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "predictive_occlusion",
+      "score": 0.9105301738187557
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "silent_bank_drift",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+confidence",
+      "challenge": "legitimate_shift",
+      "score": 0.9997192625388945
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "active_damage",
+      "score": 0.5462319539835101
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.46318884136643435
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "single_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "double_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.6063624512858015
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9997192625388945
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "active_damage",
+      "score": 0.5462319539835101
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.46318884136643435
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.6063624512858015
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9994609977484594
+    },
+    {
+      "trio": "predictor+spin+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9997192625388945
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "active_damage",
+      "score": 0.8248529171483157
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.8392742954989801
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "single_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "double_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.9105110406028809
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9997378093696461
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "active_damage",
+      "score": 0.8248529171483157
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.8392742954989801
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.9105110406028809
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+confidence+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9997378093696461
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "active_damage",
+      "score": 0.5460414010042354
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.45797743686318754
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.6044342738754915
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9993361141077151
+    },
+    {
+      "trio": "predictor+parityP+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9997378093696461
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "active_damage",
+      "score": 0.8023566276418141
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "active_plus_working",
+      "score": 0.8201039182801332
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031331108767986
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityP",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "active_damage",
+      "score": 0.8023566276418141
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.8201039182801332
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031331108767986
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+confidence+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "active_damage",
+      "score": 0.5295008317370867
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.45253020679923245
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.5997521490841893
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991892012081346
+    },
+    {
+      "trio": "spin+parityP+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9995909788010366
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "active_damage",
+      "score": 0.8041911367558013
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "active_plus_working",
+      "score": 0.8217546799335
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "single_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "double_bank",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "predictive_occlusion",
+      "score": 0.9031637610626444
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "silent_bank_drift",
+      "score": 0.9991318284476031
+    },
+    {
+      "trio": "confidence+parityP+parityQ",
+      "challenge": "legitimate_shift",
+      "score": 0.9996519910977161
+    }
+  ],
+  "notes": [
+    "All 20 three-role combinations were tested.",
+    "Held-out seeds re-test the top six.",
+    "This optimizes this benchmark, not a universal seven-state law."
+  ],
+  "fault_coupled_search": {
+    "challenges": [
+      "active_damage",
+      "active_plus_working",
+      "predictive_occlusion",
+      "legitimate_shift",
+      "fast_plus_single_bank",
+      "fast_plus_double_bank",
+      "silent_bank_plus_fast"
+    ],
+    "weights": {
+      "active_damage": 0.8,
+      "active_plus_working": 1.0,
+      "predictive_occlusion": 1.0,
+      "legitimate_shift": 0.8,
+      "fast_plus_single_bank": 1.2,
+      "fast_plus_double_bank": 1.4,
+      "silent_bank_plus_fast": 1.0
+    },
+    "ranked": [
+      {
+        "trio": "confidence+parityP+parityQ",
+        "score": 0.8576202624029079
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "score": 0.7889192751616579
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "score": 0.7884924137384215
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "score": 0.7884924137384215
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "score": 0.7884008981242681
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "score": 0.7812466805767629
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "score": 0.7812466805767629
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "score": 0.7809200438040131
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "score": 0.7809200438040131
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "score": 0.7809200438040131
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "score": 0.5601970184737295
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "score": 0.5601970184737295
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "score": 0.5600307090517707
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "score": 0.5585434853458882
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "score": 0.5583831294085452
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "score": 0.5583831294085452
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "score": 0.5525425313366793
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "score": 0.5525425313366793
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "score": 0.5525425313366793
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "score": 0.5521861461140238
+      }
+    ],
+    "heldout": [
+      {
+        "trio": "confidence+parityP+parityQ",
+        "heldout_score": 0.8600740846476203
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "heldout_score": 0.7947721527410565
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "heldout_score": 0.7946037380735189
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "heldout_score": 0.7941883970364179
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "heldout_score": 0.7902520377210052
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "heldout_score": 0.7819545373808262
+      }
+    ],
+    "detail": [
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "active_damage",
+        "score": 0.5545336638306451
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "active_plus_working",
+        "score": 0.4692272774287947
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "predictive_occlusion",
+        "score": 0.5852936692269108
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "legitimate_shift",
+        "score": 0.9997196768334509
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.4692272774287947
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.4692272774287947
+      },
+      {
+        "trio": "derivative+predictor+spin",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5143065646709
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "active_damage",
+        "score": 0.8413571390487065
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "active_plus_working",
+        "score": 0.8589179367218975
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "predictive_occlusion",
+        "score": 0.903128904588586
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "legitimate_shift",
+        "score": 0.9997389362456794
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8589179367218975
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.43538404774604794
+      },
+      {
+        "trio": "derivative+predictor+confidence",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.8050558887072008
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "active_damage",
+        "score": 0.5534223987396769
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.5837970823830884
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9997389362456794
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5046350121656554
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "active_damage",
+        "score": 0.5534223987396769
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5837970823830884
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9997389362456794
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.4692770470012492
+      },
+      {
+        "trio": "derivative+predictor+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5046350121656554
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "active_damage",
+        "score": 0.8279660905368889
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "active_plus_working",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "predictive_occlusion",
+        "score": 0.8984660812388688
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.44881905304488046
+      },
+      {
+        "trio": "derivative+spin+confidence",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800004542154967
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "active_damage",
+        "score": 0.5481458124180888
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.5794579284142733
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5031967979886486
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "active_damage",
+        "score": 0.5481458124180888
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5794579284142733
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "derivative+spin+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5031967979886486
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "active_damage",
+        "score": 0.8279818561847656
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.8988019342111054
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9996491176674851
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.4499612282238966
+      },
+      {
+        "trio": "derivative+confidence+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800964394493759
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "active_damage",
+        "score": 0.8279818561847656
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.8988019342111054
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9996491176674851
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.4499612282238966
+      },
+      {
+        "trio": "derivative+confidence+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800964394493759
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "active_damage",
+        "score": 0.549063427184853
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.46102218894431635
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5802154513876439
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9996491176674851
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46102218894431635
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46102218894431635
+      },
+      {
+        "trio": "derivative+parityP+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.4968748845519187
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "active_damage",
+        "score": 0.8409386761413767
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "active_plus_working",
+        "score": 0.8585565225777729
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "predictive_occlusion",
+        "score": 0.9026424800872105
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "legitimate_shift",
+        "score": 0.9997162451065477
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8585565225777729
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.43419179864773855
+      },
+      {
+        "trio": "predictor+spin+confidence",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.8046271816312461
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "active_damage",
+        "score": 0.5542351636765999
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.5854848721772036
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9997162451065477
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5150218489987809
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "active_damage",
+        "score": 0.5542351636765999
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5854848721772036
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9997162451065477
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46937519022454177
+      },
+      {
+        "trio": "predictor+spin+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5150218489987809
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "active_damage",
+        "score": 0.840734077515813
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.8583840326200105
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.9024126415166589
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9997356811478981
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8583840326200105
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.43536604903871967
+      },
+      {
+        "trio": "predictor+confidence+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.8043995900507769
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "active_damage",
+        "score": 0.840734077515813
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.8583840326200105
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.9024126415166589
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9997356811478981
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8583840326200105
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.43536604903871967
+      },
+      {
+        "trio": "predictor+confidence+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.8043995900507769
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "active_damage",
+        "score": 0.5531030983351906
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.46941644235910196
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5839824251735717
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9997356811478981
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46941644235910196
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46941644235910196
+      },
+      {
+        "trio": "predictor+parityP+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.505360453237585
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "active_damage",
+        "score": 0.8279660905368889
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "active_plus_working",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "predictive_occlusion",
+        "score": 0.8984660812388688
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.44881905304488046
+      },
+      {
+        "trio": "spin+confidence+parityP",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800004542154967
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "active_damage",
+        "score": 0.8279660905368889
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.8984660812388688
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8426222501590133
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.44881905304488046
+      },
+      {
+        "trio": "spin+confidence+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800004542154967
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "active_damage",
+        "score": 0.5481458124180888
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.5794579284142733
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9995866036154448
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.46040710177620625
+      },
+      {
+        "trio": "spin+parityP+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.5031967979886486
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "active_damage",
+        "score": 0.8279818561847656
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "active_plus_working",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "predictive_occlusion",
+        "score": 0.8988019342111054
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "legitimate_shift",
+        "score": 0.9996491176674851
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "fast_plus_single_bank",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "fast_plus_double_bank",
+        "score": 0.8427396490440707
+      },
+      {
+        "trio": "confidence+parityP+parityQ",
+        "challenge": "silent_bank_plus_fast",
+        "score": 0.7800964394493759
+      }
+    ],
+    "marginals": [
+      {
+        "feature": "derivative",
+        "delta": -0.05499252724666315
+      },
+      {
+        "feature": "predictor",
+        "delta": -0.046264800416755625
+      },
+      {
+        "feature": "spin",
+        "delta": -0.05443002469263625
+      },
+      {
+        "feature": "confidence",
+        "delta": 0.2351630525444972
+      },
+      {
+        "feature": "parityP",
+        "delta": -0.03973785009422104
+      },
+      {
+        "feature": "parityQ",
+        "delta": -0.03973785009422104
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+
+% Adrianic Evidence-Graph Trust Layer
+
+\subsection{Source Reliability}
+
+For source $s$ reporting value $u_s$ and sufficiently verified outcome $y$,
+\[
+q_s
+=
+\exp\left(
+-\frac{|u_s-y|}{\sigma_u}
+\right),
+\]
+\[
+\rho_s(t+1)
+=
+(1-\eta_\rho)\rho_s(t)
++
+\eta_\rho q_s.
+\]
+
+Track signed source bias
+\[
+b_s(t+1)
+=
+(1-\eta_b)b_s(t)
++
+\eta_b(u_s-y),
+\]
+and define
+\[
+\tilde u_s=u_s-b_s.
+\]
+
+\subsection{Learned Dependency Graph}
+
+Let $e_{ij}\in[0,1]$ measure the tendency of sources $i$ and $j$
+to make similar non-trivial errors on the same verified events.
+
+Base source weight:
+\[
+a_i=\rho_i^\gamma.
+\]
+
+Normalized base weight:
+\[
+\bar a_i
+=
+\frac{a_i}{\sum_j a_j+\epsilon}.
+\]
+
+Learned redundancy:
+\[
+r_i
+=
+\sum_j e_{ij}\bar a_j.
+\]
+
+Dependency-adjusted weight:
+\[
+w_i
+=
+\frac{
+a_i/(1+\beta r_i)
+}{
+\sum_k a_k/(1+\beta r_k)+\epsilon
+}.
+\]
+
+Effective value:
+\[
+U_{\rm eff}
+=
+\sum_i w_i\tilde u_i.
+\]
+
+\subsection{Verifier Reliability}
+
+Verifier nodes $v$ carry their own adaptive reliability $\rho_v$.
+A verifier is calibrated only when an objective anchor or higher-grade
+verified consequence is available.
+
+Verifier consensus must therefore remain distinct from direct verification.
+
+\subsection{Common-Cause Risk}
+
+Let $h(t)$ be a slowly varying estimate of the frequency/severity of
+verified events in which many evidence sources make substantial same-sign
+errors simultaneously.
+
+Evidence confidence is reduced as $h$ grows.
+
+The purpose of $h$ is not to correct the value estimate directly.
+Its purpose is to prevent false certainty under known common-mode risk.
+
+\subsection{Unresolved Value}
+
+If the adjusted evidence confidence is below threshold, return
+\[
+\boxed{\mathrm{VALUE\_UNRESOLVED}}
+\]
+and keep the candidate provisional.
+
+No recurrence-only fallback is permitted while value is unresolved.
+
+\subsection{Decision Audit Path}
+
+Every memory decision should retain an explicit evidence path:
+\[
+\text{reports}
+\rightarrow
+\text{bias correction}
+\rightarrow
+\text{source reliability}
+\rightarrow
+\text{dependency discount}
+\rightarrow
+\text{verifier evidence}
+\rightarrow
+\text{common-cause adjustment}
+\rightarrow
+\text{decision}.
+\]

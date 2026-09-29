@@ -1,0 +1,63 @@
+{
+  "pass": true,
+  "checks": {
+    "canonical_python_compiles": {
+      "pass": true,
+      "failures": []
+    },
+    "original_bundle_integrity": {
+      "pass": true,
+      "failures": []
+    },
+    "v315_recorded_winner": {
+      "pass": true,
+      "development": {
+        "trio": "confidence+parityP+parityQ",
+        "score": 0.8576202624029079
+      },
+      "heldout": {
+        "trio": "confidence+parityP+parityQ",
+        "heldout_score": 0.8600740846476203
+      }
+    },
+    "v50_retraction_control": {
+      "pass": true,
+      "summary": [
+        {
+          "noise": 0.0,
+          "semantic_seed_mean": 0.9663007531030035,
+          "uniform_seed_mean": 1.0,
+          "difference_pp": -3.369924689699655,
+          "semantic_wins": 0,
+          "ties": 2,
+          "seeds": 8,
+          "exact_two_sided_p_when_all_nonzero_same_sign": 0.03125
+        },
+        {
+          "noise": 0.15,
+          "semantic_seed_mean": 0.7844558693676134,
+          "uniform_seed_mean": 1.0,
+          "difference_pp": -21.554413063238663,
+          "semantic_wins": 0,
+          "ties": 0,
+          "seeds": 8,
+          "exact_two_sided_p_when_all_nonzero_same_sign": 0.0078125
+        },
+        {
+          "noise": 0.3,
+          "semantic_seed_mean": 0.6670437469157291,
+          "uniform_seed_mean": 0.9764138879179035,
+          "difference_pp": -30.937014100217443,
+          "semantic_wins": 0,
+          "ties": 0,
+          "seeds": 8,
+          "exact_two_sided_p_when_all_nonzero_same_sign": 0.0078125
+        }
+      ]
+    },
+    "result_json_parses": {
+      "pass": true,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "file": "Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_Results.zip",
+    "sha256": "ed235f74508694273c42d3217edca50eacf0ba6fea399466b26c29da3fd6efd0",
+    "zip_integrity": "PASS",
+    "members": 9,
+    "python_scripts": [
+      "Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_DIRECT_VERIFIED.py"
+    ],
+    "result_json": [
+      "8seed_checks.json"
+    ],
+    "specs": [],
+    "reports": [
+      "Adrianic_v5_0_LOCAL_8SEED_VERIFIED_REPORT.md"
+    ],
+    "scientific_status": "RETRACTED_CLAIM_R001; source preserved"
+  },
+  {
+    "file": "Adrianic_v5_3_and_later_code_pack.zip",
+    "sha256": "8e3d434164157ba13cdd7c7f05bbdf9e9b072d4bc9361208f670554f02bafe9b",
+    "zip_integrity": "PASS",
+    "members": 9,
+    "python_scripts": [
+      "adrianic_v53_plus/v53_progressive_recall.py",
+      "adrianic_v53_plus/v54_learned_mention_roles.py",
+      "adrianic_v53_plus/common_v51.py",
+      "adrianic_v53_plus/v55_consequence_ontology_growth.py"
+    ],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "adrianic_v53_plus/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_causal_ablation.zip",
+    "sha256": "4131d820c5ef39a1d7b7ac8ec6ab8dc71fec191be3a7a642a2f5f7253f63b305",
+    "zip_integrity": "PASS",
+    "members": 15,
+    "python_scripts": [],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "adrianic_causal_ablation/CAUSAL_ABLATION_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_evidence_graph_v3.zip",
+    "sha256": "5e1ac6c9cc6e700d3472f8017923e6337d3070063c13fcb7c93e581c9f20cc11",
+    "zip_integrity": "PASS",
+    "members": 23,
+    "python_scripts": [
+      "anchor_filter_test.py",
+      "evidence_v3_followup.py",
+      "evidence_v3_benchmark.py",
+      "filtered_end_to_end_test.py"
+    ],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "EVIDENCE_GRAPH_V3_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_field_replacement_gate.zip",
+    "sha256": "afec2c8a161562eaf3f81065d1fb182548db8fe41d4ae6e9ce30e861900f4447",
+    "zip_integrity": "PASS",
+    "members": 32,
+    "python_scripts": [
+      "field_replacement_integration_base.py"
+    ],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "FIELD_REPLACEMENT_GATE_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_messy_memory.zip",
+    "sha256": "b40d1b0c93f6d070073aec277db5c37b51419daaa4ba6739c1f942837c83f8b3",
+    "zip_integrity": "PASS",
+    "members": 23,
+    "python_scripts": [],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "MESSY_WORLD_MEMORY_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_multislot_memory.zip",
+    "sha256": "aa00cb95ecaa25465051ce716b1c50eeb40cb969cbf7379b77679dc3d34a9c51",
+    "zip_integrity": "PASS",
+    "members": 34,
+    "python_scripts": [],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "MULTISLOT_MEMORY_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_trust_calibration.zip",
+    "sha256": "66b6e262aacc977cd13ed802fcd2b6472cb43528502e6faa8304c1adf35f96d3",
+    "zip_integrity": "PASS",
+    "members": 27,
+    "python_scripts": [],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "TRUST_CALIBRATION_REPORT.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_15_optimal_seven_slots.zip",
+    "sha256": "feefdca915500f2ee7a95b7fa125a23f69accc751d1bfd788d8abf7fee35b400",
+    "zip_integrity": "PASS",
+    "members": 8,
+    "python_scripts": [],
+    "result_json": [
+      "adrianic_v3_15_optimal_seven_slots/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_15_optimal_seven_slots/V315_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_15_optimal_seven_slots/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_16_behavioral_consolidation.zip",
+    "sha256": "d8179d979de99eb21453d71aff9f9289d54dd36b8f87d20ea9573a516cea2080",
+    "zip_integrity": "PASS",
+    "members": 16,
+    "python_scripts": [],
+    "result_json": [
+      "adrianic_v3_16_behavioral_consolidation/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_16_behavioral_consolidation/V316_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_16_behavioral_consolidation/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_17_frozen_transfer.zip",
+    "sha256": "df04a05bff95acd19cb44d3554ab01b08ade893618cc16a894df7a4ca03f795d",
+    "zip_integrity": "PASS",
+    "members": 7,
+    "python_scripts": [],
+    "result_json": [
+      "adrianic_v3_17_frozen_transfer/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_17_frozen_transfer/V317_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_17_frozen_transfer/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_18_trust_adaptation.zip",
+    "sha256": "4a332728d3da74009fe67f253310bd99285ee1ffab542714e8a5c24bd34a24e7",
+    "zip_integrity": "PASS",
+    "members": 9,
+    "python_scripts": [
+      "adrianic_v3_18_trust_adaptation/run_v318.py"
+    ],
+    "result_json": [
+      "adrianic_v3_18_trust_adaptation/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_18_trust_adaptation/V318_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_18_trust_adaptation/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_19_evidence_graph.zip",
+    "sha256": "f0b2544caecf3203f7ad7c4dd936a835a7c8e3e4b898b00c7972c231f1768414",
+    "zip_integrity": "PASS",
+    "members": 9,
+    "python_scripts": [
+      "adrianic_v3_19_evidence_graph/run_v319.py"
+    ],
+    "result_json": [
+      "adrianic_v3_19_evidence_graph/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_19_evidence_graph/V319_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_19_evidence_graph/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_20_learned_dependency_graph.zip",
+    "sha256": "e6f856bc88bc194d5030096df484291e35900ad5d89d32d2b401b3f8e4e9f38a",
+    "zip_integrity": "PASS",
+    "members": 9,
+    "python_scripts": [],
+    "result_json": [
+      "adrianic_v3_20_learned_dependency_graph/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_20_learned_dependency_graph/V320_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_20_learned_dependency_graph/README.md"
+    ]
+  },
+  {
+    "file": "adrianic_v3_21_latent_common_cause.zip",
+    "sha256": "5273084d11ac7e64668a81c9055602bcb78dfa5882721a88b104c810c20f2632",
+    "zip_integrity": "PASS",
+    "members": 11,
+    "python_scripts": [
+      "adrianic_v3_21_latent_common_cause/run_v321.py"
+    ],
+    "result_json": [
+      "adrianic_v3_21_latent_common_cause/results.json"
+    ],
+    "specs": [
+      "adrianic_v3_21_latent_common_cause/V321_SPEC.md"
+    ],
+    "reports": [
+      "adrianic_v3_21_latent_common_cause/README.md"
+    ]
+  },
+  {
+    "file": "relational_memory_sidecar_patch.zip",
+    "sha256": "1bb6e4101422024d1d275fb080eb177c7dbfb12a33a226eae0833d8efa184286",
+    "zip_integrity": "PASS",
+    "members": 7,
+    "python_scripts": [
+      "relational_memory_sidecar/example_adapter.py",
+      "relational_memory_sidecar/relational_memory.py",
+      "relational_memory_sidecar/smoke_test.py"
+    ],
+    "result_json": [],
+    "specs": [],
+    "reports": [
+      "relational_memory_sidecar/README.md"
+    ]
+  }
+]

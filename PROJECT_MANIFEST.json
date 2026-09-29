@@ -1,0 +1,2037 @@
+{
+  "project": "Adrianic Memory Project Canonical Reconstruction",
+  "version": "0.4.1-checkpoint",
+  "created": "2026-08-03",
+  "files": [
+    {
+      "path": ".pytest_cache/.gitignore",
+      "bytes": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "bytes": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "bytes": 1512,
+      "sha256": "10cd342cda0733564e18960f9c44aaa5495341a2001e9ef0c359fd14b506a886"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3204,
+      "sha256": "59e93e29ced5cf8060ce196349d7f98db169e2cec2ad70c44253535424b117bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4017,
+      "sha256": "1424055fc7e12ece5a194f013d76d73a1b6941e3fef0ad5f9cd0a1461b8c0233"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 15625,
+      "sha256": "3dabfa71feed3b85cdbd21040af3ee37ba68ac0677dd75afbea696ffba3ed2ce"
+    },
+    {
+      "path": "docs/FINAL_BATCH_INTEGRATION.md",
+      "bytes": 3990,
+      "sha256": "eba698c47366e82e2c16943de67797f87870462546253e14d67dd52c2bfd2c16"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.md",
+      "bytes": 5459,
+      "sha256": "410064705a84ad795e509957870a503a31501e49d44eabda6dfd25d1cab4b90c"
+    },
+    {
+      "path": "docs/RECONSTRUCTION_LOG.md",
+      "bytes": 10798,
+      "sha256": "bcfe0b7bd056e92c8b78a947ae19e9a8485b1e0ab7c92a0aee6871c5363a480d"
+    },
+    {
+      "path": "docs/RETRACTION_LEDGER.md",
+      "bytes": 7623,
+      "sha256": "4c0281c817261b22730fb8f9130f6474af788627593993bab7bfacd6b6de2b56"
+    },
+    {
+      "path": "docs/V4_EVIDENCE_BOUNDARIES.md",
+      "bytes": 4857,
+      "sha256": "9f4ec311abe5668330be996aaf32a99ce6640113dad06001be78068f567f5ea5"
+    },
+    {
+      "path": "docs/V50_ORACLE_CONTROL_AUDIT.md",
+      "bytes": 1615,
+      "sha256": "70a67d6762e2f32658dd6bc00b539c98c90e430d25a6ab86617c923791a52213"
+    },
+    {
+      "path": "evidence/MANIFEST.json",
+      "bytes": 6995,
+      "sha256": "173b9dd75309f284047147c4f1226023f7dfc2b2619e13fb464bb73448b50388"
+    },
+    {
+      "path": "evidence/extracted/Adrianic_v5_3_and_later_code_pack/adrianic_v53_plus/README.md",
+      "bytes": 3498,
+      "sha256": "ab3ede72e059c1b3489d543fa3e1c365800108cc250e03ecfe901667eb368c77"
+    },
+    {
+      "path": "evidence/extracted/Adrianic_v5_3_and_later_code_pack/adrianic_v53_plus/common_v51.py",
+      "bytes": 35988,
+      "sha256": "d2e79376df5e9cce7f44a44f73d67d1b160aa7887c1fd13bdb3429bfe625e1a8"
+    },
+    {
+      "path": "evidence/extracted/Adrianic_v5_3_and_later_code_pack/adrianic_v53_plus/v53_progressive_recall.py",
+      "bytes": 9369,
+      "sha256": "3adfbddca83cbb46f680a5786515789157530856f876ead70ace72401bde909f"
+    },
+    {
+      "path": "evidence/extracted/Adrianic_v5_3_and_later_code_pack/adrianic_v53_plus/v54_learned_mention_roles.py",
+      "bytes": 9164,
+      "sha256": "9b3d3cdf0b645cab51348df0b1dd8e3d76d52fe49f62633f8b53d1f1f280217e"
+    },
+    {
+      "path": "evidence/extracted/Adrianic_v5_3_and_later_code_pack/adrianic_v53_plus/v55_consequence_ontology_growth.py",
+      "bytes": 6716,
+      "sha256": "4c745c637702334c722a4d9526c53f711e4b6e17b362e08e359f0ab909a92bf8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/CAUSAL_ABLATION_REPORT.md",
+      "bytes": 5946,
+      "sha256": "f408d288eece36254d273638aa604ec9bb5a46ffec76ba33ec50c7869e9f9e10"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/causal_ablation_ledger.csv",
+      "bytes": 628196,
+      "sha256": "c606857fdaef784aaf4906117de037c73c9cd13c2861a9c44f65e651374b353f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/causal_funnel.png",
+      "bytes": 104770,
+      "sha256": "9b4946157028f664405118334a67c8bf001e7354a13e7837a77592d101e81a54"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/causal_replacement_patch.tex",
+      "bytes": 591,
+      "sha256": "4ba0c13253ca6d4b4bac9d2ae0cbfbbd1e5c6a13aa3bed24c6d9314291631977"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/causal_stage_funnel.csv",
+      "bytes": 288,
+      "sha256": "4c7697726ca4c0da119dca09e67087a3a6f578cc39a4ec152f9b11786dff7298"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/causal_summary.csv",
+      "bytes": 661,
+      "sha256": "56b7cb33b7dbbbeae1433cf22ccfa36760393cf8c56d3d7753f5fc16c4e79f71"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/counterfactual_utility_boxplot.png",
+      "bytes": 46595,
+      "sha256": "e3b181a17982eb0ae339a5e2a0f65b66bb284e20480f5d2d9d7d73195fbc4f26"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/error_vs_downstream_utility.png",
+      "bytes": 80049,
+      "sha256": "df1a4f18d2e11543a984e29b39db1ec842e7d8f5636cda3f173ac9d53c2ffc98"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/impact_by_class.csv",
+      "bytes": 1157,
+      "sha256": "5b461ca1206f7633612ddf821b3ad7af49b21ea2665efe37930edb34a616a068"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/largest_causal_effects.csv",
+      "bytes": 3302,
+      "sha256": "d491aad2e95e6aca20149ac0a6caf65782a6e73fef568d59d37bd46231a0beb4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/replacement_gate_aggregate.csv",
+      "bytes": 703,
+      "sha256": "abd60568a7f82d6c8755a3c950603295cbb46500d9a084ea733dccc06d9f4603"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/replacement_gate_paired.csv",
+      "bytes": 236,
+      "sha256": "b6e4dc05de8a40375247bcfc6502c753181e351d0503d2840c9fffd7f42f535f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/replacement_gate_sweep.png",
+      "bytes": 55552,
+      "sha256": "ed7bbc6f40d39d200889bcf2a942d420181bb6a998b6c3f287b05839debd4d65"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/replacement_gate_trials.csv",
+      "bytes": 5499,
+      "sha256": "ddc48c9cd81af777d90b63320ad6f6c8b43e12ca2c82903f13a036d2cf6337b4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_causal_ablation/adrianic_causal_ablation/run_summary.csv",
+      "bytes": 838,
+      "sha256": "6bf72ca0f16bfdbaaaf4497224f85e786b40af3266ecb4e88dd4c73addf07815"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/EVIDENCE_GRAPH_V3_REPORT.md",
+      "bytes": 8193,
+      "sha256": "a4be273320191d6b9ffcfb671a88e780b62341d75ce3c4725b8a9826763d760c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/adaptive_adversary_post_attack.png",
+      "bytes": 76799,
+      "sha256": "e4914cdc1a969783c2455d8e1177c3f0305286671b2f3d2cb32407fe64ed9d1c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/anchor_filter_aggregate.csv",
+      "bytes": 571,
+      "sha256": "b3ce55009db45bcf3be1375c2d291e4fbed9d414211da4b0048315b2bf2465fa"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/anchor_filter_example.csv",
+      "bytes": 258526,
+      "sha256": "831a386f5fcbd725effadadb0313feff82355c3097911919b7e38cd90f8ea68f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/anchor_filter_mae.png",
+      "bytes": 72617,
+      "sha256": "0a9a667317db9e90f0a2feb79fea6efa2cb9b51a07c898e800a0cd7932c70318"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/anchor_filter_test.py",
+      "bytes": 3380,
+      "sha256": "e14dcddd97980d5046128dd7e6a4e2268ae2adee28c3fa7a09fd2d46503d5a46"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/evidence_v3_benchmark.py",
+      "bytes": 18630,
+      "sha256": "123fb068a3fb940a8480e1546a031bb7877b8e85b690af686901f3ee5c63fac0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/evidence_v3_followup.py",
+      "bytes": 4474,
+      "sha256": "4cf18d0a2b39e540e023212230db0258e6d2397bdd72970be2eec958738b22d7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/field_reintegration.png",
+      "bytes": 40457,
+      "sha256": "f8a8122d2b37fd82e78f131b8e1c4703774d0abe0b5c2672e8c5c22768934c09"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/field_reintegration_aggregate.csv",
+      "bytes": 146,
+      "sha256": "ce845cf914f673a089c64b489118eaa9071f1032b7dfd0d75619714c361dcee3"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/field_reintegration_repaired.csv",
+      "bytes": 131,
+      "sha256": "1bef766c7ba34ab218b738a038c1d43a58dd637096810bbf2c3d8f35696aa4e1"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/field_reintegration_repaired.png",
+      "bytes": 42029,
+      "sha256": "cf651a3e346f1cd393904e47c65090163adcd5862c0b5a8cfe04e79ce271c04d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/field_reintegration_trials.csv",
+      "bytes": 14790,
+      "sha256": "69e33ae020c52e20ca673ddc4d2a83315d16eb63f67b70c8e5fc7c563fa763dc"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/filtered_end_to_end_aggregate.csv",
+      "bytes": 416,
+      "sha256": "0e076a9d8154039ffc282f2c9cba9eb364d85f0d330c0775169b3c457693b6f0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/filtered_end_to_end_test.py",
+      "bytes": 3424,
+      "sha256": "5e9df8ec0c693695c3b2951c17dd57f36fe0331ae5e6527b815753a588c99518"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/filtered_end_to_end_trials.csv",
+      "bytes": 4491,
+      "sha256": "01a10e21eae081964230fc231c090db3d1df0a77c40a9c76eba7956c45062bc7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/gold_calibration_sweep.png",
+      "bytes": 50258,
+      "sha256": "81f78b6ac788360e72c522e11f3890e18a0584325cecdb119e87ee3b2419d811"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/gold_rate_sweep.csv",
+      "bytes": 1933,
+      "sha256": "1f0827c731e0d6e4f4c000a755a0429d86fd063e3c6135e89ebf76a3bc157dd4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/imperfect_anchor_aggregate.csv",
+      "bytes": 1153,
+      "sha256": "9523debcd3862f2bc90c4d969731dd32843f41872ac79b9e57e9e61eccf0ffc8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/imperfect_anchor_robustness.png",
+      "bytes": 77772,
+      "sha256": "2d64d8becb9320c76a5b7f9ec6b60c27975d685bc698fa832997ba85ef375be7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/imperfect_anchor_trials.csv",
+      "bytes": 10440,
+      "sha256": "5b3be575718fa3eef05fa7805becba16731a61a1c9b39c308d77bad77b1216a8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/robust_gate_aggregate.csv",
+      "bytes": 494,
+      "sha256": "707e3c99f9f09c34e8d48448d5fbab2cde115006420d6a10475c272fc7a16d24"
+    },
+    {
+      "path": "evidence/extracted/adrianic_evidence_graph_v3/robust_gate_trials.csv",
+      "bytes": 5239,
+      "sha256": "856e736548e9d4b16c0609b71d6728287829f1a2704f8e514e497289f7ffda7f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/FIELD_REPLACEMENT_GATE_REPORT.md",
+      "bytes": 8455,
+      "sha256": "cc3311ac6ab929b59967ef61620cf486a96b1b91ff94c1d1b63ba9bc3e40fab4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/end_to_end_field_recall.png",
+      "bytes": 57713,
+      "sha256": "934d5842f697fa030a8b3dfbb812d17668060221d10c93162601791d1179e58c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/end_to_end_field_recall_aggregate.csv",
+      "bytes": 425,
+      "sha256": "0c831a3443c238d008c825b9d02198870868ff8ffe4c738c896846d4f7653bd0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/end_to_end_field_recall_trials.csv",
+      "bytes": 27051,
+      "sha256": "991e1bb2f61da870579a71f695b2fba50984f997dec107beade029bbb2ac09e5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_aggregate.csv",
+      "bytes": 3060,
+      "sha256": "1d4c47607a0fe6e98ac8ce2625778bbe5d8d17f1f98bd1b890632c4e84a9dd67"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_gate_patch.tex",
+      "bytes": 1211,
+      "sha256": "bc5cd354bfecec27c67423bd599c260422ac3c7642b9a658419c176481c05cc2"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_integration_base.py",
+      "bytes": 10585,
+      "sha256": "7336c5be631145fefa7798f92f6233a0626b4ccd0fd5251999dd878b5260a976"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_trials.csv",
+      "bytes": 57014,
+      "sha256": "5d2659d73e14917ef741f8a3a5cde30fd2a4f4456047f9f0fda04af3dbe0a39a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_utility.png",
+      "bytes": 55033,
+      "sha256": "d39495d2fa4cdfeb53180b703fcae34252283e0bae068f8129d0d3f306da7f7a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/field_replacement_writes.png",
+      "bytes": 57459,
+      "sha256": "e85dff97d32def096a28f5c5b7aaf2f58978aea6a95a61de66d38ee7be97de34"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/heldout_field_replacement_trials.csv",
+      "bytes": 14490,
+      "sha256": "0833082037b859700ccc9faa6e0665f754a61ab2b78d6d04d6ec0e817dcef994"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/heldout_paired_summary.csv",
+      "bytes": 632,
+      "sha256": "fb8f0abcc90b8fcf313e026f1290f347229c454e0e31238e5c741cf12d865576"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/honest_field_replacement_aggregate.csv",
+      "bytes": 2002,
+      "sha256": "f6f9d5f467fb558fb9365b6c2857c64e56e7ebe59bfabe411b8ba2c36223aee0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/honest_field_replacement_trials.csv",
+      "bytes": 23733,
+      "sha256": "4ef8c0879465d7410e9a703e8a77299a279555e6f6d5e6d848f481cdfb3926e8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/loop_winding_recall_aggregate.csv",
+      "bytes": 637,
+      "sha256": "ab7ebda934932d8325a1995c1b5324d7a102b90c1350afadb6f51575c62d6f65"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/loop_winding_recall_trials.csv",
+      "bytes": 52323,
+      "sha256": "9f13341f9fbb5bf6ce2fe90ec77d254cc70d890cc0894a0aa47134d7dcd58fa8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/loop_winding_recovery.png",
+      "bytes": 56407,
+      "sha256": "2433ac88e3789ff53a01966dbffba6a7725bc9c320118a6c6a206fe282c04d78"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/recall_time_sweep_aggregate.csv",
+      "bytes": 834,
+      "sha256": "f2e61a0e532ba04b5f6dbf7452d2ba19c1ff8b6f7d12568b50906e7b649737cc"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/recall_time_sweep_trials.csv",
+      "bytes": 75365,
+      "sha256": "55521dd95500bb07b5ea5e84dc7bbdc7dcb29a69d66ded5c5d74f068f588bea8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/scoreboard.csv",
+      "bytes": 603,
+      "sha256": "e4bb1deb0496c2af26907a3e3c307a21c1b12b49b603f4f4667b47984654d928"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_method_comparison.csv",
+      "bytes": 92,
+      "sha256": "4b839cd722352a30f40983ff1eca8e7e2993f7c419f858775831cbd5d06d4036"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_quality_aggregate.csv",
+      "bytes": 385,
+      "sha256": "1d51ebd66f0a1b00923906db92c606cbe04684f900005147680a0531b3c22161"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_quality_by_corruption.csv",
+      "bytes": 90334,
+      "sha256": "dda5ffce89a53fb1c0a92064c786b6fd0227af83adb62fa3385f52baa98ef54e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_quality_trials.csv",
+      "bytes": 27823,
+      "sha256": "1f8b1d946a43fe80ab9a41fd46710af7c1ce0d0271671a1d4bac2f2e831c0c93"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_topology_aggregate.csv",
+      "bytes": 222,
+      "sha256": "e350da6512b10889702e02abc5ccc557223216d93eaab9675eb0ad04104025d3"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_topology_fix.png",
+      "bytes": 69085,
+      "sha256": "2e0775cb80ed05210c30447e5e58d408a8e9b758d1125c3497cd0300eed77cff"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/template_topology_trials.csv",
+      "bytes": 21374,
+      "sha256": "a3f019f399ada96f98ecdd3a527aa637dfe3ad738749641058f057a52cd1b736"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/topology_preserving_aggregate.csv",
+      "bytes": 694,
+      "sha256": "bb9886fbd7a8f31ac0a09942c4251f3bd3062882a9a3a2d1e6299547969024e0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/topology_preserving_paired_summary.csv",
+      "bytes": 577,
+      "sha256": "f0771bfbae642364f1ba422ac9a51f18c022f462aff1776b0bee5ecae1c8830d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/topology_preserving_trials.csv",
+      "bytes": 9544,
+      "sha256": "f109a8f00042d807985bc85e27915ee4bb5062c28e06b2d69d332476bc7d7c13"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/topology_preserving_v2_aggregate.csv",
+      "bytes": 770,
+      "sha256": "f4ea9e4d761c3eba347ab1e5c644d9437cfe24d7706f995a803e83419fbbc28c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_field_replacement_gate/topology_preserving_v2_trials.csv",
+      "bytes": 10245,
+      "sha256": "48cc3c77bb3e95efd152b5ee9145e3653aa0b50dfcf7a4b9b7d72c2c6eaaf0ed"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/MESSY_WORLD_MEMORY_REPORT.md",
+      "bytes": 3751,
+      "sha256": "a853a5d5b0d5c8b98d08c027e1de751da61572286ed08f69d813f7b3c8b68de1"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/class_hit_rates.png",
+      "bytes": 42635,
+      "sha256": "f4fa8530ff1b0d8572f452f48a0a7b05a86334043054666569966313aee2c1c6"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/delayed_feedback.png",
+      "bytes": 85340,
+      "sha256": "e22cfa7890fb4d9cfaf4b6368b09cfcc4ecdaa62e95230d1785984264743bca8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/delayed_value_aggregate.csv",
+      "bytes": 595,
+      "sha256": "f20825bcc750cd17164d93874a34a90e0090c081f4991336071c62b425475370"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/delayed_value_trials.csv",
+      "bytes": 5077,
+      "sha256": "286360e1d1128d755b26b6ee518424ac865e1cc0de1f8cfd7615166767e7c682"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/messy_utility_capture.png",
+      "bytes": 37121,
+      "sha256": "c27a8c446dd7e7e974a5361d01b29169a4854a5e77f0ab18c7286f7c6c98e086"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/messy_world_aggregate.csv",
+      "bytes": 826,
+      "sha256": "a467c0513f408357dcf4aedf3604e0719edde4d927a8a40784444349259a5b3d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/messy_world_memory_patch.tex",
+      "bytes": 987,
+      "sha256": "48b6859b632799183130d5b80faa555298aca0462e2bc19ddfe42fdf23b9586f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/messy_world_trials.csv",
+      "bytes": 31196,
+      "sha256": "439adcf7a65fc7479e3b29fc1127a7be44cd88ae645fb0c2464a67c5d58822d6"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/messy_write_churn.png",
+      "bytes": 39741,
+      "sha256": "9653aa47b8d68aefaeac117190c66f5ba2efe8e44cdbc7c0aaeb0a6a5117d1ff"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reconsolidation_drift.png",
+      "bytes": 65234,
+      "sha256": "7834d93035ecf6ba6979cfcfa5c651f24e6cd691f4548263775d3bca6c905886"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reconsolidation_drift_aggregate.csv",
+      "bytes": 544,
+      "sha256": "5515afd7a4bed6536b5d3f9f2175b64166cff6e8aebffd6fb92234add43840fb"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reconsolidation_drift_trials.csv",
+      "bytes": 5072,
+      "sha256": "509446a5b0df9c32f5c4359606b6d3fbf0d42c0915b21fa7e67e03c611fb820a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reward_poison_aggregate.csv",
+      "bytes": 734,
+      "sha256": "7dfca607d1a69208c0f08db5209bd246f81134aec225db3e3c280cf3221810e4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reward_poison_reliability_aggregate.csv",
+      "bytes": 703,
+      "sha256": "19849c68de2b8d13829ba0d2c4d9667a1373b026f34c5ce521aa00f30a23cb83"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reward_poison_reliability_trials.csv",
+      "bytes": 5272,
+      "sha256": "b8a3201bc34823fd1023dec23b03f768846e333255cb3391623f87ee5a959614"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reward_poison_trials.csv",
+      "bytes": 4083,
+      "sha256": "8e16f9764177f6cfced43271d80cf928e415948c6585693ab38dab5a51dd0b0e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/reward_poisoning.png",
+      "bytes": 97274,
+      "sha256": "e8f5bd771fa0228d4121f210d8b8e2058ee298b9cd75ef4ddabece3b603dbb9b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/utility_reversal.png",
+      "bytes": 44600,
+      "sha256": "c5cb21b0d8ca97c7c8120a0ada66888b117fd8dfac47a37d9111b1990faf2869"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/utility_reversal_adaptive_aggregate.csv",
+      "bytes": 384,
+      "sha256": "f1d2c32bd1030e60fa36b133cd8006e7d37225304ac9de4d02dd62917157d3ca"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/utility_reversal_adaptive_trials.csv",
+      "bytes": 4018,
+      "sha256": "d8cefe1f11185412b2612b321499eb5b6c651d34e1256f411fbd331abd0df342"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/utility_reversal_aggregate.csv",
+      "bytes": 460,
+      "sha256": "a4e806ec6e10302d7ab30a931bb9320ee313aa6fb7707c187e2926350c0cc21f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_messy_memory/utility_reversal_trials.csv",
+      "bytes": 2917,
+      "sha256": "176f6e0eefbca820cf446d60ca9bbb0addac524dbd16932c1c307310e3e779ab"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/24_vs_48_slots.png",
+      "bytes": 63170,
+      "sha256": "3ecff0a54ec009f5097992f83318a0f15d16782b176072e8a88d4a34e94dcf0e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/MULTISLOT_MEMORY_REPORT.md",
+      "bytes": 10243,
+      "sha256": "3340cc6c46545a5447d172c59dd4156c08e69dd6befbcb3f92bb5a1781c83479"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/ambiguity_honesty_test.csv",
+      "bytes": 393,
+      "sha256": "a8e63a7f627d0478162b6fcb1a7f7bfb905425356c851bba9c9d0d04f2bf41a0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/big_library_specs.csv",
+      "bytes": 503,
+      "sha256": "283f745fa51dd2866dd4ceab7ea087b1c49fc73a820f99b51de65aa315647075"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/calibrated_bank_aggregate.csv",
+      "bytes": 608,
+      "sha256": "ae84462323b708361886bbbfd35f6ece0b3731082c2a23985cb8771bc9fbaf76"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/calibrated_bank_trials.csv",
+      "bytes": 87945,
+      "sha256": "d1491aae116d1e04f15577bb750deb88a8aab7ea436702e3a935176b9557bc96"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_48_aggregate.csv",
+      "bytes": 1013,
+      "sha256": "add1715792adda718d4ae3e17c63b8053b38aaac2d1563112b5f186e92c250ed"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_48_trials.csv",
+      "bytes": 149053,
+      "sha256": "666a35d199de0460ed065dda3f466010a9e99991668f875211fa31fa8401edd6"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_corruption_aggregate.csv",
+      "bytes": 1902,
+      "sha256": "1bb5791ca4ac2f2cfe8cfd60f95fc6444bd9f9fd83f51bdc708a962effaac8e7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_corruption_trials.csv",
+      "bytes": 67851,
+      "sha256": "6b2f8f2fad5e0e16cfd33549361f8b3f9c6a575395c8aa9b39c7e922d7054373"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_scaling.png",
+      "bytes": 82589,
+      "sha256": "03d9c51307aef90aa6d46db49d31ae22e725b67901ff5896c2a0af132228747c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_scaling_aggregate.csv",
+      "bytes": 1774,
+      "sha256": "27b674fd7d4814ed485d110d219b4c3f58dc08d4d8dee650d536320a71f29e27"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/capacity_scaling_trials.csv",
+      "bytes": 149936,
+      "sha256": "d0ccdd275dfbfbf01ec27c1ae33c76a514224aff28daf363163febc613e83084"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/confidence_hold_aggregate.csv",
+      "bytes": 353,
+      "sha256": "74d6b3d1193f501bb6e2915a7cf696a79821f540a4215d49b2a33f9fcdfbb49a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/confidence_hold_trials.csv",
+      "bytes": 188207,
+      "sha256": "91bb6f48d5a46b4caf1e0a7376a5a196851e3b0c5aebda80b216bac10e4e707c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/dropout_aware_aggregate.csv",
+      "bytes": 250,
+      "sha256": "faaf329dd4b825353ba5be717bf5809fc208d7e3a9560a88c9b658c30a665d19"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/dropout_aware_trials.csv",
+      "bytes": 53598,
+      "sha256": "16319e40a7c9fbaa7afb0e05aae4d8cd78029df54e10da80b1aebefe3c15ed0f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/end_to_end_48slot_aggregate.csv",
+      "bytes": 422,
+      "sha256": "047be828cf7cd2d81c08131b3d5789c5c60801871da014dcecfda5d51dde8132"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/end_to_end_48slot_trials.csv",
+      "bytes": 54613,
+      "sha256": "c257bad2ec35f08a37cb9a2695ee358708cf68001bde7852d061efc8ba49ead4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/fingerprint_bank_aggregate.csv",
+      "bytes": 406,
+      "sha256": "1bb0b9943130c404f3bae9a33a61f9f669771fe9b79d2817b22abccdac983d5b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/fingerprint_bank_trials.csv",
+      "bytes": 70570,
+      "sha256": "b13423de9a0372fad1a0eac42d3a5bc60d64a6a520b359b4b79683def94da74b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/geometry_bank_aggregate.csv",
+      "bytes": 361,
+      "sha256": "69313a5394d7858c65e4fac9d1a360c9039ea9fb57a28102065e83d6247ddf7e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/geometry_bank_trials.csv",
+      "bytes": 68724,
+      "sha256": "3f1727d3e10cccc0bb330e17b5429450a1714be16e4d9db851810433d025ad35"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/learned_transparent_feature_weights.csv",
+      "bytes": 465,
+      "sha256": "b91c537f608ebb6a0ed33760c68f3a06241de50772d3c779e87e54cc2aee54ab"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/library_specs.csv",
+      "bytes": 253,
+      "sha256": "83ef8c35ec06253b6fa035a995d20c3d9fa5a1a923f5ca21d99ef5dcb894175e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/multislot_memory_patch.tex",
+      "bytes": 2037,
+      "sha256": "57c8ac8e7c7417d0e13d71e2562106d1da00790d7b05a4d1cf07c9ad7d05b2a3"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/scoreboard.csv",
+      "bytes": 278,
+      "sha256": "161e6c57db3e50edc6448fe6b32195167becd5d4f57dd4b38fc095bdbe2e1587"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/slot_management.png",
+      "bytes": 37914,
+      "sha256": "37453957d1d5e29525a73a198f55bfe3dcf89bc06939080aed8f99152ae4731a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/slot_management_aggregate.csv",
+      "bytes": 245,
+      "sha256": "471b82cd4907319266dedf11e0aca248fcd3ea1f0e54dbbe8dc835b461c8f25e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/slot_management_trials.csv",
+      "bytes": 4677,
+      "sha256": "dc62bf31fab770da444951b49c69bb8fc63544d40fe15bbcb133d4e34156a2f7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/vector_ablation.png",
+      "bytes": 73702,
+      "sha256": "c04f09876c4d0046e4a392b0f7675c08ffe7924cf1e489983f4b2223b5319de2"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/vector_ablation_aggregate.csv",
+      "bytes": 1527,
+      "sha256": "f53b8c3931819385f18965f340ac7840325e59e6ab602f807c4c113c041a7f41"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/vector_ablation_scores.csv",
+      "bytes": 533,
+      "sha256": "7e84b3e995b32a300e2587b838f450aee0365bc9ce682ad9d9ede139299ebef6"
+    },
+    {
+      "path": "evidence/extracted/adrianic_multislot_memory/vector_ablation_trials.csv",
+      "bytes": 386994,
+      "sha256": "6b8b529d3caed874376dbc0e4910f8c00ad65dc4c24e3d359b79ef74e0d288c8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/TRUST_CALIBRATION_REPORT.md",
+      "bytes": 9984,
+      "sha256": "ff4e54423ff30f4f2a713cddbd03ecdd13ac9162c8f479fcd0878de96e553a52"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/collusion_aggregate.csv",
+      "bytes": 471,
+      "sha256": "19ecdec5e32a2e3ab7408db5c85badfb177ab747998d2d0f0cf931baaeaa53da"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/collusion_provenance.png",
+      "bytes": 78898,
+      "sha256": "25aac41e6d4229d5104cc753e01deb7c84947100d7fa878e83b02062a0fa14c1"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/collusion_trials.csv",
+      "bytes": 10757,
+      "sha256": "fc78d473089038abb5c08dc6ee144d848164aaa5cebbd6a77b0785a35f8ad4db"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/common_mode_poisoning.png",
+      "bytes": 78028,
+      "sha256": "4c7e1152580d6686ae3b806e2412384425f466387ba46b9ee32e5d3ba6ee8409"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/confidence_gate_aggregate.csv",
+      "bytes": 562,
+      "sha256": "d6b156956a9ce2567c59fd3f31d3d0a899b5e4aaf1d805e2bfd05643e2b7deb1"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/confidence_gate_trials.csv",
+      "bytes": 4677,
+      "sha256": "0508c75ec42db4ef6e809a7b0e817e4c0ff6148bcb273f59cd895eb2ed914d5d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/learned_source_reliability.png",
+      "bytes": 38649,
+      "sha256": "984598fac3be8a2da515fa3a6821aaff134638d194822f2426e3ea1bc8066ee0"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/main_trust_aggregate.csv",
+      "bytes": 883,
+      "sha256": "4aecef67ea003e56665f33dff3c32b8830e5c3d8bf6b4078dc3e7e34d24eb215"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/main_trust_comparison.png",
+      "bytes": 47734,
+      "sha256": "5e3d5d1dc462bd6b96e6a2ce9240975c1739eb25c605d11e7c22495d3ff168a5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/main_trust_trials.csv",
+      "bytes": 18639,
+      "sha256": "23bf145710d54df7d93054aeaf371e83e4e58243dd474c97d9d1d8dc42d14b42"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/provenance_collusion_aggregate.csv",
+      "bytes": 455,
+      "sha256": "03e3e2a9cb3e4af30711a692fd070dd4d504326dfc63a739bf06988412965747"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/provenance_collusion_trials.csv",
+      "bytes": 6637,
+      "sha256": "68dd59713cdbe757b260e5124fed5b908d3c096a1d242112016ea49ccd92b620"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/reliability_flip_aggregate.csv",
+      "bytes": 421,
+      "sha256": "b4806878a0d69f987ceeb12a8509375f334921cd2cc631874fad5e3089f5afa4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/reliability_flip_trace.csv",
+      "bytes": 8884,
+      "sha256": "ae191f08b8852ee780fb51f962d2cc9ab383d2ebf68e3dad575da35ba5a41846"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/reliability_flip_trials.csv",
+      "bytes": 7624,
+      "sha256": "eabfedfe8e91b570220e254c8c5d0e4455b7a33545f8ca2777e9bc56c334773d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/reliability_reversal.png",
+      "bytes": 47827,
+      "sha256": "ea262c75314bcd37bf0f9c17f9f2328400d0eae65577a9575cbcea234337346b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/scoreboard.csv",
+      "bytes": 584,
+      "sha256": "6cb11cc4fe1c3130c5a754b40433889a079db9acdbf4c629e761dc6dff7bc551"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/trust_calibration_patch.tex",
+      "bytes": 1304,
+      "sha256": "bc3025597dd58c42a69876008bdcd5231c0bce5778c4eb0b7df7fe629a0bb7a5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/trust_gated_controller_aggregate.csv",
+      "bytes": 332,
+      "sha256": "c8457c6c8c7ec690e931bbd5db7a5b1237a5837c2dbe7e710c71361fd761c74f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/trust_gated_controller_trials.csv",
+      "bytes": 3986,
+      "sha256": "d498ec3abb898516642f4708cd8f8cbea4d58c6e867d8c267ad0952649ea1775"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/trust_reversal_trace.png",
+      "bytes": 148009,
+      "sha256": "e4a902fe4b2461b11a7083f372e7df46b9f26911d72de23e1355a1b64d532a41"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/verification_sweep.png",
+      "bytes": 59658,
+      "sha256": "74f24d6215b1e138844bec6094934dad0fa2fc73d819847423fc30ced709fa43"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/verification_sweep_aggregate.csv",
+      "bytes": 613,
+      "sha256": "c3fce801b32c302e3ec0a5c18f4933d6d561ac44db827b43a40c7fd893de284c"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/verification_sweep_trials.csv",
+      "bytes": 21021,
+      "sha256": "ab4ad69c5f2e66e9744049a0e0c0cd3fd286c273c048fc414c86b76e7cd25265"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/verified_tier_aggregate.csv",
+      "bytes": 1183,
+      "sha256": "a0ec7c8530d1642a045096b13ec73c177c108013b51279cf670cb9d842698a91"
+    },
+    {
+      "path": "evidence/extracted/adrianic_trust_calibration/verified_tier_trials.csv",
+      "bytes": 8419,
+      "sha256": "9d11fe815ae97503da0e2a2c0bfbe69ba0b22d3bb3c5d7943ec6967bd2f3f00b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/README.md",
+      "bytes": 109,
+      "sha256": "720de90cd18a8022d06fdf21c806bd397b831a05bfdc2d7b8ff92ee6b82cdade"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/V315_SPEC.md",
+      "bytes": 190,
+      "sha256": "67c325930b76c8db95410cdab321d1a9b59c1b817055b7a3645b2b985984d8c7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/fault_coupled_search_top10.png",
+      "bytes": 93254,
+      "sha256": "1bcf03e1d93028ad190b56636a0eb5cf72991ad620ecf2c050de6da78f290026"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/fault_coupled_slot_value.png",
+      "bytes": 57857,
+      "sha256": "aff51200a01e27f752a4c61b60ca826a1c1fc3915074233a42c238718b576fda"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/finalist_failure_modes.png",
+      "bytes": 109982,
+      "sha256": "a65bc2b70489aae9b852d3843b2e24b8319c0fc39a871b49e3e3d226934048b9"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/results.json",
+      "bytes": 45039,
+      "sha256": "fbb4929676f7eb8670a80213345151004defc236629d7a1cf8992160b3acf3c5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/seven_slot_search_top10.png",
+      "bytes": 86659,
+      "sha256": "0a1e3b2fdf0f1a12cbd6782983bd14928b3d7e2c2616fd5bfc318f9775b2e98f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_15_optimal_seven_slots/adrianic_v3_15_optimal_seven_slots/slot_marginal_value.png",
+      "bytes": 60786,
+      "sha256": "da1b75045cb8b48dc212f9ce473ed6e2db248325f2cbe853966e50030d425a70"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/README.md",
+      "bytes": 552,
+      "sha256": "0bac9e651e984c2421faa7ba81d876d925a180bf30116c4e2f216425fd649be5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/V316_SPEC.md",
+      "bytes": 3119,
+      "sha256": "41f376a2e441387d50d34ca4efa80733eb26165416908cf1a0fc1f3af524359d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/bad_consolidation_rate.png",
+      "bytes": 70347,
+      "sha256": "9cdf0d45e595f29f5cb977ae607a7a56091253b90c892c9d87e87f6bd8ca9454"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/behavioral_accuracy.png",
+      "bytes": 45509,
+      "sha256": "62e2db4e45e222c111b85b40fe30a57a63bb1513c1876b9d8034c54b2b84b2cf"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/behavioral_timecourse.png",
+      "bytes": 156556,
+      "sha256": "091bdcf1b3fd97d30a890d419deacfc936e5020d73febe3c71cd34aa6d712bda"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/consolidation_selectivity.png",
+      "bytes": 44244,
+      "sha256": "6e3b5c226f589532f678d21ef02d1de7fa080e504a65ce0a56e92ae69842d4d5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/hard_bank_damage.png",
+      "bytes": 65481,
+      "sha256": "9a2b361a5e0328de4d8543c8544d8a92d646ab3809c9658123afd1f4092d9c5d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/hard_behavior_timecourse.png",
+      "bytes": 221939,
+      "sha256": "a639a3272a3a21d47f07a085a8af2d3ba5564e5e065f9630084721d563631dc7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/hard_false_cue.png",
+      "bytes": 67553,
+      "sha256": "5f3ef7033427a85569b40946e411ea490dd1525b8ab5fea29c52fa5ca903114b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/hard_working_interference.png",
+      "bytes": 63708,
+      "sha256": "3b6167d7a070ce516d40328b043aeef6cf2652a7231a45721338227252c7cacb"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/harder_behavior_timecourse.png",
+      "bytes": 256655,
+      "sha256": "297330a6bfdc7a926872d81ebb44dbea5e65ff1745e7da04c3161028b0d1709d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/harder_double_bank_damage.png",
+      "bytes": 63964,
+      "sha256": "169bcb5d1a4a472f92e47270a068f5cb3021ba7c68337aa6ba061ac365db8fb7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/harder_working_wipe.png",
+      "bytes": 64110,
+      "sha256": "2f674d83b659415f906a9697f18991e9c7d7baa34dc43a1d23b7c82d368b5c6d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/parity_behavior_probe.png",
+      "bytes": 71601,
+      "sha256": "a7f7d3c1ed71674c0b42ebbd179baa4ece8b60e6838089e4d22ca20c969b7bcd"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/post_damage_behavior.png",
+      "bytes": 48543,
+      "sha256": "bedc3253b85ad83fcfef8176ecfa06f02ecf9a2fa48c76bc3c4bdced0e69e9de"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_16_behavioral_consolidation/adrianic_v3_16_behavioral_consolidation/results.json",
+      "bytes": 9474,
+      "sha256": "8e0081ecd1c04032fde7ebba8cc24966d0056565dc77ddb46bde364521b90b8b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/README.md",
+      "bytes": 99,
+      "sha256": "0101b48c6c9de0bb64d3d54153e778d7b5b44d7596ccf10bd0fa3b1baf72f20b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/V317_SPEC.md",
+      "bytes": 477,
+      "sha256": "bbf06d7be3336db03736022ae5ed6f6c5d21cc09048e84a0acb6423d39f8a34f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/cold_start_transfer.png",
+      "bytes": 65596,
+      "sha256": "01ed17eaadfc3e91da904269fde065af0c61841bec0f113254ac0cfe8dfae6e5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/regime_switch.png",
+      "bytes": 61259,
+      "sha256": "e690377c1d000ae112486e97010ebc74e04eeec745920a1c295c4aec45836c5a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/results.json",
+      "bytes": 15677,
+      "sha256": "c9af1b4d518d3176678c8c8a8f439a1ae713b129d81ddc72a2028e31e6062bd6"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/transfer_post_damage.png",
+      "bytes": 60250,
+      "sha256": "5a1cddef8e46c503a5fcdfe4289b4a419a8673713b5548c619d5c06ca1b809d5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_17_frozen_transfer/adrianic_v3_17_frozen_transfer/transfer_post_wipe.png",
+      "bytes": 61238,
+      "sha256": "aa12e50569c69ed5e7998e931f9d8311b8abcb84fcfa5fab11d5d5c1907b5663"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/README.md",
+      "bytes": 401,
+      "sha256": "0e38edbb8f5ea914cc59386980830f51d5cc8b30a12eaf315c76ac31c81175ba"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/V318_SPEC.md",
+      "bytes": 1017,
+      "sha256": "594ccb928d53a3a7028a74df3f42f14ac75c0ea52a8df8930bbad0a6024f2e32"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/adaptive_vs_frozen_verification.png",
+      "bytes": 74616,
+      "sha256": "58b2c8100e552e86fcd20ca9603a47348b696b207272b5044a36d1dd9909aa60"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/regime_reversal_accuracy.png",
+      "bytes": 63833,
+      "sha256": "72128dcb5f5a2e29d2abffc291ae875ca2b0c396fe86100a193ca39b8ec0bf55"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/results.json",
+      "bytes": 6314,
+      "sha256": "3ed4f5be5eb188e1291f5ea46a27d383aa96a53cff6562cbb9ebdb01d62c17df"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/run_v318.py",
+      "bytes": 15889,
+      "sha256": "859cfe813645d90e992a4604297cb842ec72cb1f8fb3023b46fdcdef7f2a4971"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/trust_reversal_trajectory.png",
+      "bytes": 109076,
+      "sha256": "c40fd648245aa8d79e1add6a8b47faa072f4e4b3efa2c822d1c010ff0675ac91"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_18_trust_adaptation/adrianic_v3_18_trust_adaptation/verification_sweep.png",
+      "bytes": 54008,
+      "sha256": "732c6422bad474ef5b2b6c0ce99386f7430b2eccaa2c22a1d1107eefb965cb1a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/README.md",
+      "bytes": 45,
+      "sha256": "146b7a45659a0d1403b5823acc02b0a19c5a43c0d07fe70e1e7d3f2362161f56"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/V319_SPEC.md",
+      "bytes": 187,
+      "sha256": "51bccf05f241e567c9a48a2bb0a69e4be85bdd0f8044e8e60f2ffd5008f4ae6e"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/common_mode_benchmark.png",
+      "bytes": 49706,
+      "sha256": "77737e7e79c1a25f0a35360473defaa847f9c75eb30c18f2fe8403590d03d37f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/controller_comparison.png",
+      "bytes": 35320,
+      "sha256": "badb3bd72479ecd2077ea0509534a818dd0871d85d1c1cafb7c0b3bc59f7a323"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/regime_return_accuracy.png",
+      "bytes": 51177,
+      "sha256": "a79ee60b425cf8ac2ac11d56fe4c95b74435eaaecdcbf5d77fc8a3bd6ac35cc5"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/results.json",
+      "bytes": 3745,
+      "sha256": "169140ca8f0b76f56316a9e74ede5b42858cf03ebf4e9cff3f41b105da335cca"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/run_v319.py",
+      "bytes": 13865,
+      "sha256": "ecb8789dee9dc7da7dc776c404c92fddf39237b3f88346ef18694beaeb2c674b"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/verification_sweep.png",
+      "bytes": 49124,
+      "sha256": "10f32824418c474efaad388bbaf31fc10e6efe544467a7127c9409f2d1d22c55"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_19_evidence_graph/adrianic_v3_19_evidence_graph/verifier_confidence.png",
+      "bytes": 40490,
+      "sha256": "5ecef3aa6d1e8518e2de948c7d4bc13776b7d835ab242515b7fb0e564b96d3c7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/README.md",
+      "bytes": 89,
+      "sha256": "4fece5630c0e55fbb91eb0f1fa1d14d87d8e093fe182aa21f1d2869d70622409"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/V320_SPEC.md",
+      "bytes": 590,
+      "sha256": "fd00f03441d4183ed8d16cdbf90b164baa5955b899f837f1db7dc9738f893294"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/collusion_accuracy.png",
+      "bytes": 49459,
+      "sha256": "701dc1440f0a2f5cbcfefe8d8ca2e011e5b14ef3394a66354abf892f8a631426"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/common_mode_accuracy.png",
+      "bytes": 50584,
+      "sha256": "28f08ebb377d342bc52de40499f654cb36989b90e8d1adf8530bee4ebf21742a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/dependency_reversal_accuracy.png",
+      "bytes": 52799,
+      "sha256": "37fe8992984982f85171f6ffb32fabd3ddb0d94f53e8a472dc33ac1b36402cf7"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/dependency_reversal_trace.png",
+      "bytes": 93104,
+      "sha256": "3de567b1c32a6acf25a3b744ab87dedb7164a263705ed7ccd817135ac74cd040"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/learned_dependency_matrix.png",
+      "bytes": 48103,
+      "sha256": "eecf393aebc35106ffa2f8bb0b03d3e9a3e335961523023a9c8b1f9a8392deac"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/results.json",
+      "bytes": 5056,
+      "sha256": "e8ca67eccde742f76ee7084a8b83ba4df7782c31ae7260e84d6cae7ef0560f20"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_20_learned_dependency_graph/adrianic_v3_20_learned_dependency_graph/verification_dependency_sweep.png",
+      "bytes": 56229,
+      "sha256": "7d0c2bf8548254451140f29d2fe95dc5b51ca195a15bf06eb7f6b93b3d9938e8"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/README.md",
+      "bytes": 362,
+      "sha256": "049a8365e2cfce94d86262f77128679cccf1d8a5aa1f37e2450e617eeb4c0b49"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/V321_SPEC.md",
+      "bytes": 1278,
+      "sha256": "37245309561a7bc464ce33f7ba6219465207ac02d1b13127bb6fa3f761ae4f73"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/common_mode_accuracy.png",
+      "bytes": 28585,
+      "sha256": "282e87356e3a6e3c096f49ae162b750fb8e34fd0570147bdba47b43ee0fff864"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/common_mode_bad_writes.png",
+      "bytes": 41477,
+      "sha256": "b1cbd2a45c57c065d2a717629c706d553a815c8e218f2d786fe395ae875670ce"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/factor_reversal_accuracy.png",
+      "bytes": 29281,
+      "sha256": "a96dd2dff95086b696afa6da9e178404799d694890c227b1e715afac9c23f5cc"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/independent_accuracy.png",
+      "bytes": 28408,
+      "sha256": "6759d6a78e4afd47132a29df1bbf94e61a1306dac55e0a23035a8750ab4b7a92"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/latent_factor_loadings.png",
+      "bytes": 30035,
+      "sha256": "b6d5a240b8e695d33db10b9331c87505d06ed87a3df66443d6367f99603cf66a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/residual_correlation.png",
+      "bytes": 38562,
+      "sha256": "595db0d8ee3f93958a2a1bce3ec22cfcf7b077b2b551bbf717c1294b55153710"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/results.json",
+      "bytes": 5919,
+      "sha256": "efb755fe9706a7afef7f6f9f079a7f7434da7b88bb88b7fb4b047beeebcc36ee"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/run_v321.py",
+      "bytes": 10059,
+      "sha256": "1e75b4d364ec053956c93871084d151038ac8570e87bdc46208f633165d3af1d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v3_21_latent_common_cause/adrianic_v3_21_latent_common_cause/verification_factor_sweep.png",
+      "bytes": 49820,
+      "sha256": "14d1c8d59d58598a72ef0c546d737d9f22a4b1edfe118ec1ee351f9e5fd8ecf4"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/8seed_checks.json",
+      "bytes": 1164,
+      "sha256": "7c5faddb758cac101ab6ee21afdf2580b55ee538973cc3e52664feb9c5e48b1f"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/8seed_details.csv",
+      "bytes": 842436,
+      "sha256": "0fd31b744ef7234ad49c6f7f934e5dfca45143c8a20ca3b3c7402ae4c9e2f3d9"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/8seed_semantic_proposals.csv",
+      "bytes": 184600,
+      "sha256": "a3207fa60fc9ad6492f619e8c9c34680331581186f496223cd270d7b395eba99"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/8seed_summary.csv",
+      "bytes": 3126,
+      "sha256": "aa2dca695716e587a7ef22937d40f03bd195beea1198df43fb968bfc589347ce"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/Adrianic_v5_0_LOCAL_8SEED_VERIFIED_REPORT.md",
+      "bytes": 8027,
+      "sha256": "496fd27c5eae3b10bf9d9978a7b7aebcdd6ea096f18512976fdd3032cff4ca0d"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/Adrianic_v5_0_MANIFEST.json",
+      "bytes": 1404,
+      "sha256": "87a13280a50abb707d34bb59980818d71b674d24c0cd409433e412665cd8d83a"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_COLAB_SAFE.ipynb",
+      "bytes": 50969,
+      "sha256": "dfdd5e72d2015a09ccc864b312cf0cf98a122894aedda15bc51ec4322aa78cfc"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_DIRECT_VERIFIED.py",
+      "bytes": 28938,
+      "sha256": "09fcd187cb7b43cb694a361abd738af3299d0529bb111491d1ee373c32123916"
+    },
+    {
+      "path": "evidence/extracted/adrianic_v5_0_semantic_governance/v50_8seed_pooled_metrics_VERIFIED.csv",
+      "bytes": 682,
+      "sha256": "df70cd6b8ba505f90e8360682be023dad87fe768550e94885a478239a5a878d4"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/ARCHITECTURE_NOTES.md",
+      "bytes": 1392,
+      "sha256": "7fbd1e0164892a18abd41ff6728503d94d7240fc8323227acae16eed717a6ace"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/INTEGRATION_CHECKLIST.md",
+      "bytes": 1708,
+      "sha256": "3e7736d53c1bb04143e2d4dd71e9361f3dc79af124851b9d41d03f2ebec4f422"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/MANIFEST.json",
+      "bytes": 934,
+      "sha256": "062808591791daaa41fb45160e06748fc8e6c13ccc811086a0cb8c79630fa84a"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/README.md",
+      "bytes": 10231,
+      "sha256": "c95c14b75fd43238698147fa4ce1e5b6c012783fb1d0886b2e518ef2462e2bb7"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/example_adapter.py",
+      "bytes": 1898,
+      "sha256": "a7cea33beb3e3804f6fbfe363fc7f6af4f681e63e6409c598bc44c4b4f48eb5b"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/relational_memory.py",
+      "bytes": 9887,
+      "sha256": "217652ed9eba7f158c97e01dd6c1fc036e7221c3d3e33e4baf255f3d6eb8e26d"
+    },
+    {
+      "path": "evidence/extracted/relational_memory_sidecar_patch/relational_memory_sidecar/smoke_test.py",
+      "bytes": 988,
+      "sha256": "42f7ca637f5cfdb5d89bbc43455676472a9f19ce8f6b5fed4c35e497671706c6"
+    },
+    {
+      "path": "evidence/original_bundles/Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_Results.zip",
+      "bytes": 167528,
+      "sha256": "ed235f74508694273c42d3217edca50eacf0ba6fea399466b26c29da3fd6efd0"
+    },
+    {
+      "path": "evidence/original_bundles/Adrianic_v5_3_and_later_code_pack.zip",
+      "bytes": 63027,
+      "sha256": "8e3d434164157ba13cdd7c7f05bbdf9e9b072d4bc9361208f670554f02bafe9b"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_causal_ablation.zip",
+      "bytes": 425490,
+      "sha256": "4131d820c5ef39a1d7b7ac8ec6ab8dc71fec191be3a7a642a2f5f7253f63b305"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_evidence_graph_v3.zip",
+      "bytes": 444457,
+      "sha256": "5e1ac6c9cc6e700d3472f8017923e6337d3070063c13fcb7c93e581c9f20cc11"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_field_replacement_gate.zip",
+      "bytes": 343380,
+      "sha256": "afec2c8a161562eaf3f81065d1fb182548db8fe41d4ae6e9ce30e861900f4447"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_messy_memory.zip",
+      "bytes": 372993,
+      "sha256": "b40d1b0c93f6d070073aec277db5c37b51419daaa4ba6739c1f942837c83f8b3"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_multislot_memory.zip",
+      "bytes": 526945,
+      "sha256": "aa00cb95ecaa25465051ce716b1c50eeb40cb969cbf7379b77679dc3d34a9c51"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_trust_calibration.zip",
+      "bytes": 479283,
+      "sha256": "66b6e262aacc977cd13ed802fcd2b6472cb43528502e6faa8304c1adf35f96d3"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_15_optimal_seven_slots.zip",
+      "bytes": 334913,
+      "sha256": "feefdca915500f2ee7a95b7fa125a23f69accc751d1bfd788d8abf7fee35b400"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_16_behavioral_consolidation.zip",
+      "bytes": 1118048,
+      "sha256": "d8179d979de99eb21453d71aff9f9289d54dd36b8f87d20ea9573a516cea2080"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_17_frozen_transfer.zip",
+      "bytes": 202671,
+      "sha256": "df04a05bff95acd19cb44d3554ab01b08ade893618cc16a894df7a4ca03f795d"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_18_trust_adaptation.zip",
+      "bytes": 287251,
+      "sha256": "4a332728d3da74009fe67f253310bd99285ee1ffab542714e8a5c24bd34a24e7"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_19_evidence_graph.zip",
+      "bytes": 194150,
+      "sha256": "f0b2544caecf3203f7ad7c4dd936a835a7c8e3e4b898b00c7972c231f1768414"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_20_learned_dependency_graph.zip",
+      "bytes": 298497,
+      "sha256": "e6f856bc88bc194d5030096df484291e35900ad5d89d32d2b401b3f8e4e9f38a"
+    },
+    {
+      "path": "evidence/original_bundles/adrianic_v3_21_latent_common_cause.zip",
+      "bytes": 196394,
+      "sha256": "5273084d11ac7e64668a81c9055602bcb78dfa5882721a88b104c810c20f2632"
+    },
+    {
+      "path": "evidence/original_bundles/relational_memory_sidecar_patch.zip",
+      "bytes": 10600,
+      "sha256": "1bb6e4101422024d1d275fb080eb177c7dbfb12a33a226eae0833d8efa184286"
+    },
+    {
+      "path": "evidence/original_files/Adrianic_v3_8_Parity_Coalition_Structural_Plasticity_Lab_EXECUTED.ipynb",
+      "bytes": 52779,
+      "sha256": "77bab69516f323759c5ab48c70aac98cec82bc96651038f680f386920a2cb1ec"
+    },
+    {
+      "path": "evidence/original_files/Developmental_Agent_Action_Conditioned_Structural_Induction_Lab_v11.ipynb",
+      "bytes": 125366,
+      "sha256": "050768113337bd2aaeba41037470e28b941b3f5f182514b7634e869f0a570057"
+    },
+    {
+      "path": "evidence/original_files/Developmental_Agent_Informational_Softwalls_Lab_v10.ipynb",
+      "bytes": 105819,
+      "sha256": "67fe51e646f10a3ec9db71326021e37f427ef170301d29329ddbb04e86f244cb"
+    },
+    {
+      "path": "evidence/original_files/evidence_graph_patch.tex",
+      "bytes": 2143,
+      "sha256": "d45c6d1298e5e1f639a2089fa88d51952b2a5fcc4702c504cbd2d363e404f8fd"
+    },
+    {
+      "path": "evidence/original_files/messy_world_memory_patch.tex",
+      "bytes": 987,
+      "sha256": "48b6859b632799183130d5b80faa555298aca0462e2bc19ddfe42fdf23b9586f"
+    },
+    {
+      "path": "evidence/original_files/trust_calibration_patch.tex",
+      "bytes": 1304,
+      "sha256": "bc3025597dd58c42a69876008bdcd5231c0bce5778c4eb0b7df7fe629a0bb7a5"
+    },
+    {
+      "path": "evidence/original_files/v3_1_complex_memory_patch.tex",
+      "bytes": 1144,
+      "sha256": "cf26b2a2791ccbe4fc8e7dd724bca586176c700f86528a15a943a93ef4384d24"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab_COLAB_GPU_SAFE.ipynb",
+      "bytes": 31266,
+      "sha256": "644a861d8d5223aa56de5053b8eb1974b409daa83ff19156b19693b50931b297"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_1_Order_Interleaving_Semantic_Transfer_COLAB_SAFE.ipynb",
+      "bytes": 40598,
+      "sha256": "2f081b7ad03355f37618c7aeb71accbef41928d709a6002cda73ea288c61b76e"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_2_Semantic_Compositional_Probe_COLAB_SAFE.ipynb",
+      "bytes": 25979,
+      "sha256": "65dd5f855bd908342161f2c382bcc7cdc3a48cdcebdd47eddd5739f8819893f0"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_3_Binding_GraphFactor_FieldGate_COLAB_SAFE.ipynb",
+      "bytes": 50163,
+      "sha256": "035a90fd80e89850fa22fc97d8d7e2c053407a641e226a228893d257b366a5fd"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_4_MultiConsequence_AdaptiveBinding_COLAB_SAFE.ipynb",
+      "bytes": 73094,
+      "sha256": "6485aec4eb46b51881769c3f80d848d838bb5cbb70bc171f109bc88c0a4dbaa1"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_5_MultiAccess_IdentityBinding_COLAB_SAFE.ipynb",
+      "bytes": 91676,
+      "sha256": "3b29b6e928fde0020d1a59b12ebfc0b20a034d609a2f6e0551e67d975fa284f8"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_6_VariableDepth_IdentityPath_COLAB_SAFE.ipynb",
+      "bytes": 111494,
+      "sha256": "dab91b15d2c0b87a61d350291086f6c6c031cc74603a11635dcd4942dd0bb1fb"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_7_LongHorizon_IdentityDepthFrontier_COLAB_SAFE.ipynb",
+      "bytes": 144280,
+      "sha256": "d3c1dd012c798be3d84ef024388e622777bae70b3c8cba030a2458d7845cde38"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_8_AmbiguousTopology_EndogenousStopping_COLAB_SAFE.ipynb",
+      "bytes": 204241,
+      "sha256": "0d12a97326a2bef740b51489cb7f8c5592edf2c70e6ccf6965b53942d74d248f"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v4_9_SymmetricDecoy_ConsequenceArbitration_COLAB_SAFE.ipynb",
+      "bytes": 60563,
+      "sha256": "8cb625db472b4bedd2a2449010747d128ca0e2b402afbf49632730795dea3d07"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_COLAB_SAFE.ipynb",
+      "bytes": 50969,
+      "sha256": "dfdd5e72d2015a09ccc864b312cf0cf98a122894aedda15bc51ec4322aa78cfc"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_DIRECT_VERIFIED.py",
+      "bytes": 28938,
+      "sha256": "09fcd187cb7b43cb694a361abd738af3299d0529bb111491d1ee373c32123916"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_1_EntityCoreference_SemanticGovernance_COLAB_SAFE.ipynb",
+      "bytes": 59984,
+      "sha256": "968cfcc3e92f5086b8b437a4e81105afe8af92b5d2dc0054350c4ec673027785"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_4c_DESIGN_NOTES.md",
+      "bytes": 3780,
+      "sha256": "21450fd61a9c8231f1ba50b82c98f84676010df816e74bd0383f46462bfe5bc8"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_4c_PersistentDiscourse_SerialNull.py",
+      "bytes": 56771,
+      "sha256": "afbe3c93723e886e67e9d0d18b7508a2bfa69b272dc1f17b1c5ec0c7f5feea40"
+    },
+    {
+      "path": "evidence/semantic_reasoning_lineage/Adrianic_v5_4c_PersistentDiscourse_SerialNull_COLAB.ipynb",
+      "bytes": 63544,
+      "sha256": "b137bc5a5326de3fa0a6055e560e7744bd3e1da22570ecc2f15359602f7801b7"
+    },
+    {
+      "path": "examples/canonical_smoke.py",
+      "bytes": 981,
+      "sha256": "b3fcb161e808b7ea4d0f4220c079806db4a62af2105be827c47ce48705f34662"
+    },
+    {
+      "path": "examples/field_safe_configuration.py",
+      "bytes": 792,
+      "sha256": "e7e9a279884d604c50893ffd28a2ff6c7aec2a0466407e57c04c00147d9b81f9"
+    },
+    {
+      "path": "experiments/Adrianic_v3_8_Parity_Coalition_Structural_Plasticity_Lab_EXECUTED.ipynb",
+      "bytes": 52779,
+      "sha256": "77bab69516f323759c5ab48c70aac98cec82bc96651038f680f386920a2cb1ec"
+    },
+    {
+      "path": "experiments/Adrianic_v3_8_Parity_Coalition_Structural_Plasticity_Lab_EXECUTED.py",
+      "bytes": 29911,
+      "sha256": "f83413b1f4817674c0856956bc1bf1a677a64f6ea3a0287e5a893479018d3561"
+    },
+    {
+      "path": "experiments/Developmental_Agent_Action_Conditioned_Structural_Induction_Lab_v11.ipynb",
+      "bytes": 125366,
+      "sha256": "050768113337bd2aaeba41037470e28b941b3f5f182514b7634e869f0a570057"
+    },
+    {
+      "path": "experiments/Developmental_Agent_Action_Conditioned_Structural_Induction_Lab_v11.py",
+      "bytes": 102290,
+      "sha256": "42006918368e00adacfe4332b0340453bf71543f67cd6396f06f7d794ab05e31"
+    },
+    {
+      "path": "experiments/Developmental_Agent_Informational_Softwalls_Lab_v10.ipynb",
+      "bytes": 105819,
+      "sha256": "67fe51e646f10a3ec9db71326021e37f427ef170301d29329ddbb04e86f244cb"
+    },
+    {
+      "path": "experiments/Developmental_Agent_Informational_Softwalls_Lab_v10.py",
+      "bytes": 85716,
+      "sha256": "a2462783b1184726253c9b59add47e7743839d093eaf2d287403003fb925d94a"
+    },
+    {
+      "path": "experiments/evidence_graph_v3/README.md",
+      "bytes": 449,
+      "sha256": "15fd9702b7a977fe4e0d79a4b4a3fa56930a851f0e15c18ffe6d18d6fe4d0ca7"
+    },
+    {
+      "path": "experiments/evidence_graph_v3/anchor_filter_test.py",
+      "bytes": 3380,
+      "sha256": "e14dcddd97980d5046128dd7e6a4e2268ae2adee28c3fa7a09fd2d46503d5a46"
+    },
+    {
+      "path": "experiments/evidence_graph_v3/evidence_v3_benchmark.py",
+      "bytes": 18630,
+      "sha256": "123fb068a3fb940a8480e1546a031bb7877b8e85b690af686901f3ee5c63fac0"
+    },
+    {
+      "path": "experiments/evidence_graph_v3/evidence_v3_followup.py",
+      "bytes": 4474,
+      "sha256": "4cf18d0a2b39e540e023212230db0258e6d2397bdd72970be2eec958738b22d7"
+    },
+    {
+      "path": "experiments/evidence_graph_v3/filtered_end_to_end_test.py",
+      "bytes": 3424,
+      "sha256": "5e9df8ec0c693695c3b2951c17dd57f36fe0331ae5e6527b815753a588c99518"
+    },
+    {
+      "path": "experiments/field_replacement_gate/README.md",
+      "bytes": 377,
+      "sha256": "a4328e8656091347ff18a5399aba3a204e1280e4264fa404a746a69ce293e7af"
+    },
+    {
+      "path": "experiments/field_replacement_gate/field_replacement_integration_base.py",
+      "bytes": 10585,
+      "sha256": "7336c5be631145fefa7798f92f6233a0626b4ccd0fd5251999dd878b5260a976"
+    },
+    {
+      "path": "experiments/v3_18_trust_adaptation/run_v318.py",
+      "bytes": 15889,
+      "sha256": "859cfe813645d90e992a4604297cb842ec72cb1f8fb3023b46fdcdef7f2a4971"
+    },
+    {
+      "path": "experiments/v3_19_evidence_graph/run_v319.py",
+      "bytes": 13865,
+      "sha256": "ecb8789dee9dc7da7dc776c404c92fddf39237b3f88346ef18694beaeb2c674b"
+    },
+    {
+      "path": "experiments/v3_21_latent_common_cause/run_v321.py",
+      "bytes": 10059,
+      "sha256": "1e75b4d364ec053956c93871084d151038ac8570e87bdc46208f633165d3af1d"
+    },
+    {
+      "path": "experiments/v5_3_plus/README.md",
+      "bytes": 3498,
+      "sha256": "ab3ede72e059c1b3489d543fa3e1c365800108cc250e03ecfe901667eb368c77"
+    },
+    {
+      "path": "experiments/v5_3_plus/common_v51.py",
+      "bytes": 35988,
+      "sha256": "d2e79376df5e9cce7f44a44f73d67d1b160aa7887c1fd13bdb3429bfe625e1a8"
+    },
+    {
+      "path": "experiments/v5_3_plus/v53_progressive_recall.py",
+      "bytes": 9369,
+      "sha256": "3adfbddca83cbb46f680a5786515789157530856f876ead70ace72401bde909f"
+    },
+    {
+      "path": "experiments/v5_3_plus/v54_learned_mention_roles.py",
+      "bytes": 9164,
+      "sha256": "9b3d3cdf0b645cab51348df0b1dd8e3d76d52fe49f62633f8b53d1f1f280217e"
+    },
+    {
+      "path": "experiments/v5_3_plus/v55_consequence_ontology_growth.py",
+      "bytes": 6716,
+      "sha256": "4c745c637702334c722a4d9526c53f711e4b6e17b362e08e359f0ab909a92bf8"
+    },
+    {
+      "path": "logs/original_reruns/README.md",
+      "bytes": 502,
+      "sha256": "98f450f1fe2bec865894b34365e9f02f7a51d02196583943177784fe1451cf7d"
+    },
+    {
+      "path": "logs/original_reruns/evidence_graph_v3/README.md",
+      "bytes": 376,
+      "sha256": "9ddac224bacf135a5fdf0b308cc0a68431d1f855772523663f7d90af73434e59"
+    },
+    {
+      "path": "logs/original_reruns/evidence_graph_v3/aggregate_stdout.txt",
+      "bytes": 475,
+      "sha256": "143008b771eeabc26defee807d1092c65462cd2a436bbe9987758d591d3b36ab"
+    },
+    {
+      "path": "logs/original_reruns/field_replacement_gate/README.md",
+      "bytes": 395,
+      "sha256": "a746c1a347424d94378d073759885f16fe0ac5d651cbba4f1268a68e234eb95b"
+    },
+    {
+      "path": "logs/original_reruns/rerun_status.json",
+      "bytes": 1092,
+      "sha256": "ff08e4a7ca0b057f36857b52004a9a12a2bceb5d0abf12d559c96ee478e4758a"
+    },
+    {
+      "path": "logs/original_reruns/v3_18/README.md",
+      "bytes": 401,
+      "sha256": "0e38edbb8f5ea914cc59386980830f51d5cc8b30a12eaf315c76ac31c81175ba"
+    },
+    {
+      "path": "logs/original_reruns/v3_18/results.json",
+      "bytes": 4004,
+      "sha256": "32c289aee7d082331bf2721b132a31c7bfe9454862591a18110651147bc82d2a"
+    },
+    {
+      "path": "logs/original_reruns/v3_21/README.md",
+      "bytes": 66,
+      "sha256": "268d86faaddd8d1d90136e2a896edbfb307ad8dc7d255bbd1c3b0be3d2d32595"
+    },
+    {
+      "path": "logs/original_reruns/v3_21/results.json",
+      "bytes": 5919,
+      "sha256": "efb755fe9706a7afef7f6f9f079a7f7434da7b88bb88b7fb4b047beeebcc36ee"
+    },
+    {
+      "path": "logs/reconstruction.jsonl",
+      "bytes": 2822,
+      "sha256": "60446a7a5ba88159f57c64c17b8158ec4436c4d089a684a923c461a33d2fbd00"
+    },
+    {
+      "path": "logs/v0_3_release_validation.json",
+      "bytes": 617,
+      "sha256": "4ce5905a7be7e7528e4efe19093c63e764fa3a1af30cb33d2c1c3d5547f9ca5f"
+    },
+    {
+      "path": "logs/v50_oracle_control_source_exact.csv",
+      "bytes": 1384,
+      "sha256": "8bae56a2ec36e54c4cc0abfc9a771baa767e7ab30cb846b080c67d2c3aec76a0"
+    },
+    {
+      "path": "logs/v50_oracle_control_source_exact.json",
+      "bytes": 5891,
+      "sha256": "4d80129f42c8d00fdffce0e0207ca1fefa23c5941b4d7b6add018bdc50c04a94"
+    },
+    {
+      "path": "logs/verification_report.json",
+      "bytes": 1630,
+      "sha256": "cf99cc923a9b8e63901f48d209a590338daf302e9d7f23f3537c333b822f9b28"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 434,
+      "sha256": "6ea4a1e6eb88574d0abc721f7e46a23fd3a479fe2afe23017f2fae22d724c850"
+    },
+    {
+      "path": "research_archive/ARCHITECTURE_MAP.md",
+      "bytes": 3215,
+      "sha256": "a63e9591842c91ddc0f342e7c9751663f541fa70f2dd628c87ec2ed6e453267b"
+    },
+    {
+      "path": "research_archive/LINEAGE.md",
+      "bytes": 3513,
+      "sha256": "14286034c34981e1fa904c043d2cd364490f5f2f39af3df0a6be7f56c40a697f"
+    },
+    {
+      "path": "research_archive/MANIFEST.json",
+      "bytes": 8264,
+      "sha256": "d534fbfde1869a22a118ed03ac027f008226ad09ba357b6f170340247096e1b7"
+    },
+    {
+      "path": "research_archive/README.md",
+      "bytes": 2936,
+      "sha256": "56062076b8ba34e1ada2918a9ba6c3ccecd80817e94377a5caf08602ee002913"
+    },
+    {
+      "path": "research_archive/STATUS_AND_BOUNDARIES.md",
+      "bytes": 1751,
+      "sha256": "4099dec7c457c21835a5853c95a2f37bd1404105d733e620c1c0061cee35b47a"
+    },
+    {
+      "path": "research_archive/core_primitives/causal_replacement_patch.tex",
+      "bytes": 591,
+      "sha256": "4ba0c13253ca6d4b4bac9d2ae0cbfbbd1e5c6a13aa3bed24c6d9314291631977"
+    },
+    {
+      "path": "research_archive/core_primitives/evidence_graph_patch.tex",
+      "bytes": 2143,
+      "sha256": "d45c6d1298e5e1f639a2089fa88d51952b2a5fcc4702c504cbd2d363e404f8fd"
+    },
+    {
+      "path": "research_archive/core_primitives/field_replacement_gate_patch.tex",
+      "bytes": 1211,
+      "sha256": "bc5cd354bfecec27c67423bd599c260422ac3c7642b9a658419c176481c05cc2"
+    },
+    {
+      "path": "research_archive/core_primitives/memory_controller_patch.tex",
+      "bytes": 1483,
+      "sha256": "441073d7a91f6789e6f8ad3d751b54dcb27e2ed8a8a9c01380025b86056df0cd"
+    },
+    {
+      "path": "research_archive/core_primitives/messy_world_memory_patch.tex",
+      "bytes": 987,
+      "sha256": "48b6859b632799183130d5b80faa555298aca0462e2bc19ddfe42fdf23b9586f"
+    },
+    {
+      "path": "research_archive/core_primitives/multislot_memory_patch.tex",
+      "bytes": 2037,
+      "sha256": "57c8ac8e7c7417d0e13d71e2562106d1da00790d7b05a4d1cf07c9ad7d05b2a3"
+    },
+    {
+      "path": "research_archive/core_primitives/trust_calibration_patch.tex",
+      "bytes": 1304,
+      "sha256": "bc3025597dd58c42a69876008bdcd5231c0bce5778c4eb0b7df7fe629a0bb7a5"
+    },
+    {
+      "path": "research_archive/core_primitives/v3_1_complex_memory_patch.tex",
+      "bytes": 1144,
+      "sha256": "cf26b2a2791ccbe4fc8e7dd724bca586176c700f86528a15a943a93ef4384d24"
+    },
+    {
+      "path": "research_archive/developmental_controller/Adrianic_v3_8_Parity_Coalition_Structural_Plasticity_Lab_EXECUTED.ipynb",
+      "bytes": 52779,
+      "sha256": "77bab69516f323759c5ab48c70aac98cec82bc96651038f680f386920a2cb1ec"
+    },
+    {
+      "path": "research_archive/developmental_controller/Developmental_Agent_Action_Conditioned_Structural_Induction_Lab_v11.ipynb",
+      "bytes": 125366,
+      "sha256": "050768113337bd2aaeba41037470e28b941b3f5f182514b7634e869f0a570057"
+    },
+    {
+      "path": "research_archive/developmental_controller/Developmental_Agent_Informational_Softwalls_Lab_v10.ipynb",
+      "bytes": 105819,
+      "sha256": "67fe51e646f10a3ec9db71326021e37f427ef170301d29329ddbb04e86f244cb"
+    },
+    {
+      "path": "research_archive/developmental_controller/RECOVERED_v3_15_SOURCE.md",
+      "bytes": 537,
+      "sha256": "cd373ce03d8a412bf8663a7cf676ed8c27ad6e5a85bb88b453fdf32ccc5bbc08"
+    },
+    {
+      "path": "research_archive/evidence_reports/CAUSAL_ABLATION_REPORT.md",
+      "bytes": 5946,
+      "sha256": "f408d288eece36254d273638aa604ec9bb5a46ffec76ba33ec50c7869e9f9e10"
+    },
+    {
+      "path": "research_archive/evidence_reports/EVIDENCE_GRAPH_V3_REPORT.md",
+      "bytes": 8193,
+      "sha256": "a4be273320191d6b9ffcfb671a88e780b62341d75ce3c4725b8a9826763d760c"
+    },
+    {
+      "path": "research_archive/evidence_reports/FIELD_REPLACEMENT_GATE_REPORT.md",
+      "bytes": 8455,
+      "sha256": "cc3311ac6ab929b59967ef61620cf486a96b1b91ff94c1d1b63ba9bc3e40fab4"
+    },
+    {
+      "path": "research_archive/evidence_reports/MEMORY_TIMESCALE_REPORT.md",
+      "bytes": 6489,
+      "sha256": "78af8745ba339a6d37fb2ddee9eee8df56a72aaa1a3023ed7a903131ca05fb26"
+    },
+    {
+      "path": "research_archive/evidence_reports/MULTISLOT_MEMORY_REPORT.md",
+      "bytes": 10243,
+      "sha256": "3340cc6c46545a5447d172c59dd4156c08e69dd6befbcb3f92bb5a1781c83479"
+    },
+    {
+      "path": "research_archive/evidence_reports/SELECTIVE_COMMIT_REPORT.md",
+      "bytes": 8428,
+      "sha256": "6952cbfcb009f7d33d2146f312b090b553768c0d1b941a8d89cba43cabcdb219"
+    },
+    {
+      "path": "research_archive/evidence_reports/Selective commit cuts permanent-memory churn.png",
+      "bytes": 22644,
+      "sha256": "96250d3dbfab3ebac92b8aaa1ffb17678305e8d8542a0072d21b05085990320b"
+    },
+    {
+      "path": "research_archive/evidence_reports/fault_coupled_search_top10.png",
+      "bytes": 93254,
+      "sha256": "1bcf03e1d93028ad190b56636a0eb5cf72991ad620ecf2c050de6da78f290026"
+    },
+    {
+      "path": "research_archive/legacy_reference/spectral_governor_v6_legacy.py",
+      "bytes": 76901,
+      "sha256": "c48bbff909fa9055c3472728672e15bcd70617c35020f95bd540f5ebcd5d4d3a"
+    },
+    {
+      "path": "research_archive/relational_sidecar/ARCHITECTURE_NOTES.md",
+      "bytes": 1392,
+      "sha256": "7fbd1e0164892a18abd41ff6728503d94d7240fc8323227acae16eed717a6ace"
+    },
+    {
+      "path": "research_archive/relational_sidecar/INTEGRATION_CHECKLIST.md",
+      "bytes": 1708,
+      "sha256": "3e7736d53c1bb04143e2d4dd71e9361f3dc79af124851b9d41d03f2ebec4f422"
+    },
+    {
+      "path": "research_archive/relational_sidecar/MANIFEST.json",
+      "bytes": 934,
+      "sha256": "062808591791daaa41fb45160e06748fc8e6c13ccc811086a0cb8c79630fa84a"
+    },
+    {
+      "path": "research_archive/relational_sidecar/README.md",
+      "bytes": 10231,
+      "sha256": "c95c14b75fd43238698147fa4ce1e5b6c012783fb1d0886b2e518ef2462e2bb7"
+    },
+    {
+      "path": "research_archive/relational_sidecar/example_adapter.py",
+      "bytes": 1898,
+      "sha256": "a7cea33beb3e3804f6fbfe363fc7f6af4f681e63e6409c598bc44c4b4f48eb5b"
+    },
+    {
+      "path": "research_archive/relational_sidecar/relational_memory.py",
+      "bytes": 9887,
+      "sha256": "217652ed9eba7f158c97e01dd6c1fc036e7221c3d3e33e4baf255f3d6eb8e26d"
+    },
+    {
+      "path": "research_archive/relational_sidecar/smoke_test.py",
+      "bytes": 988,
+      "sha256": "42f7ca637f5cfdb5d89bbc43455676472a9f19ce8f6b5fed4c35e497671706c6"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab.ipynb",
+      "bytes": 31679,
+      "sha256": "db04e5198a942ca576102d9114c3daba557e8ce63bdbd3ed62884edc92f44208"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab_COLAB_FIXED.ipynb",
+      "bytes": 32715,
+      "sha256": "421e1a4e03a9b0271b7a4b37f158536b3f3a2fa01985a8b6c1a49e36b021a86c"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_0_Semantic_Bootstrap_Transfer_Lab_COLAB_GPU_SAFE.ipynb",
+      "bytes": 31266,
+      "sha256": "644a861d8d5223aa56de5053b8eb1974b409daa83ff19156b19693b50931b297"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_1_Order_Interleaving_Semantic_Transfer_COLAB_SAFE.ipynb",
+      "bytes": 40598,
+      "sha256": "2f081b7ad03355f37618c7aeb71accbef41928d709a6002cda73ea288c61b76e"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_2_Semantic_Compositional_Probe_COLAB_SAFE.ipynb",
+      "bytes": 25979,
+      "sha256": "65dd5f855bd908342161f2c382bcc7cdc3a48cdcebdd47eddd5739f8819893f0"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_3_Binding_GraphFactor_FieldGate_COLAB_SAFE.ipynb",
+      "bytes": 50163,
+      "sha256": "035a90fd80e89850fa22fc97d8d7e2c053407a641e226a228893d257b366a5fd"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_4_MultiConsequence_AdaptiveBinding_COLAB_SAFE.ipynb",
+      "bytes": 73094,
+      "sha256": "6485aec4eb46b51881769c3f80d848d838bb5cbb70bc171f109bc88c0a4dbaa1"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_5_MultiAccess_IdentityBinding_COLAB_SAFE.ipynb",
+      "bytes": 91676,
+      "sha256": "3b29b6e928fde0020d1a59b12ebfc0b20a034d609a2f6e0551e67d975fa284f8"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_6_VariableDepth_IdentityPath_COLAB_SAFE.ipynb",
+      "bytes": 111494,
+      "sha256": "dab91b15d2c0b87a61d350291086f6c6c031cc74603a11635dcd4942dd0bb1fb"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_7_LongHorizon_IdentityDepthFrontier_COLAB_SAFE.ipynb",
+      "bytes": 144280,
+      "sha256": "d3c1dd012c798be3d84ef024388e622777bae70b3c8cba030a2458d7845cde38"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_8_AmbiguousTopology_EndogenousStopping_COLAB_SAFE.ipynb",
+      "bytes": 204241,
+      "sha256": "0d12a97326a2bef740b51489cb7f8c5592edf2c70e6ccf6965b53942d74d248f"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v4/Adrianic_v4_9_SymmetricDecoy_ConsequenceArbitration_COLAB_SAFE.ipynb",
+      "bytes": 60563,
+      "sha256": "8cb625db472b4bedd2a2449010747d128ca0e2b402afbf49632730795dea3d07"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/Adrianic_v5_1_EntityCoreference_SemanticGovernance_COLAB_SAFE.ipynb",
+      "bytes": 59984,
+      "sha256": "968cfcc3e92f5086b8b437a4e81105afe8af92b5d2dc0054350c4ec673027785"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/README.md",
+      "bytes": 3498,
+      "sha256": "ab3ede72e059c1b3489d543fa3e1c365800108cc250e03ecfe901667eb368c77"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/common_v51.py",
+      "bytes": 35988,
+      "sha256": "d2e79376df5e9cce7f44a44f73d67d1b160aa7887c1fd13bdb3429bfe625e1a8"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/v53_progressive_recall.py",
+      "bytes": 9369,
+      "sha256": "3adfbddca83cbb46f680a5786515789157530856f876ead70ace72401bde909f"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/v54_learned_mention_roles.py",
+      "bytes": 9164,
+      "sha256": "9b3d3cdf0b645cab51348df0b1dd8e3d76d52fe49f62633f8b53d1f1f280217e"
+    },
+    {
+      "path": "research_archive/semantic_lineage/v5/v55_consequence_ontology_growth.py",
+      "bytes": 6716,
+      "sha256": "4c745c637702334c722a4d9526c53f711e4b6e17b362e08e359f0ab909a92bf8"
+    },
+    {
+      "path": "research_archive/tools/verify_archive.py",
+      "bytes": 1189,
+      "sha256": "30692e961191e3e823b93d96dc371e86dbd610cfa40e4c53f81ee2acde71f468"
+    },
+    {
+      "path": "src/adrianic_memory/__init__.py",
+      "bytes": 992,
+      "sha256": "10bbe9868a901d8a82989551c305fd24b68926d8b3abb8de6d0a26d35b61c489"
+    },
+    {
+      "path": "src/adrianic_memory/bank.py",
+      "bytes": 5156,
+      "sha256": "68d9d8ecfe2fa203baecd8276a87b82cf0c625c078f7283dbb5c2a6b9351d597"
+    },
+    {
+      "path": "src/adrianic_memory/causal.py",
+      "bytes": 1499,
+      "sha256": "31fd9df2eec9638f2515d6abd04b9065359da3b640cbc39f87a89ec48151bec6"
+    },
+    {
+      "path": "src/adrianic_memory/complex_field.py",
+      "bytes": 2060,
+      "sha256": "9327dca4633c1eaf65de06bcafbbbc13195a8473e14410c55e9e4bb54c3d96eb"
+    },
+    {
+      "path": "src/adrianic_memory/consolidation.py",
+      "bytes": 5814,
+      "sha256": "8799717e46bfcaa1b18530b39f22ecce0fee211a8d0c7b6270529c13748a0a8d"
+    },
+    {
+      "path": "src/adrianic_memory/dependency.py",
+      "bytes": 5198,
+      "sha256": "95ef915c05df7310d7809a06c60c4baa4006cbad0c72fd554ea1922de2d31c4d"
+    },
+    {
+      "path": "src/adrianic_memory/engine.py",
+      "bytes": 2538,
+      "sha256": "2024f3ece3dd1fa7fd96ffe40dc509702ff75730a697c57f22594ba2de821238"
+    },
+    {
+      "path": "src/adrianic_memory/evidence.py",
+      "bytes": 5004,
+      "sha256": "cb6a01c9aa723a06e076cbaa7023331884e1dcb7827772cf7e36c82dd8975f3c"
+    },
+    {
+      "path": "src/adrianic_memory/parity.py",
+      "bytes": 3159,
+      "sha256": "b7fe3d36e2278a3f7a46704a07e864d81a71de0d81ec017b0d0d0fb973b52630"
+    },
+    {
+      "path": "src/adrianic_memory/relational.py",
+      "bytes": 9887,
+      "sha256": "217652ed9eba7f158c97e01dd6c1fc036e7221c3d3e33e4baf255f3d6eb8e26d"
+    },
+    {
+      "path": "src/adrianic_memory/roles.py",
+      "bytes": 1473,
+      "sha256": "ef5f3ab32f6ef464021d7c822641fdaa2496b015021a45b3d0111921f3831a03"
+    },
+    {
+      "path": "src/adrianic_memory/templates.py",
+      "bytes": 2957,
+      "sha256": "b6906e13c639d64b52283df9728176696948f7aa4abb7cf432f3bfb4e76cccd0"
+    },
+    {
+      "path": "src/adrianic_memory/timescale.py",
+      "bytes": 2052,
+      "sha256": "70bf489fca7fad143fd72203e7051d2bd5e1c78c9ab4cc3361dabe5fbf32afa6"
+    },
+    {
+      "path": "src/adrianic_memory/types.py",
+      "bytes": 1947,
+      "sha256": "61ecd75c50a3527f4ee81efa5bb9bd498076daa6077196f941a0d2134552903f"
+    },
+    {
+      "path": "src/adrianic_memory/verification.py",
+      "bytes": 2304,
+      "sha256": "ce83322f3f73af34eeedac1e8bc010bf285e51a6f09bb23a89c1afc6d0b12a6c"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 5680,
+      "sha256": "71fc89e6a1309a32456febd450158c79cd03027c9eeb3ffa6b0d221ac032aa7e"
+    },
+    {
+      "path": "tests/test_retraction.py",
+      "bytes": 1395,
+      "sha256": "7b51f07b8ae0c591ba24cd443e422aa05171dd33ec05b4083a9e90c4f84647eb"
+    },
+    {
+      "path": "tests/test_v4_boundaries.py",
+      "bytes": 1479,
+      "sha256": "02245174ebfce5567c09bba382fae3628c8ddbc71f90f8f1817795302fd5aa61"
+    },
+    {
+      "path": "tools/replay_v50_oracle_control.py",
+      "bytes": 4994,
+      "sha256": "c82f1a872c39b1c13ddd49c4f373d93c0df487323d4bfc9b0e6c57a5508f0d1b"
+    },
+    {
+      "path": "tools/verify_project.py",
+      "bytes": 3131,
+      "sha256": "a1acc54b34a61c6f925724c9f6875ef1065367b287f0f6dc209fe4c301f6551b"
+    }
+  ]
+}

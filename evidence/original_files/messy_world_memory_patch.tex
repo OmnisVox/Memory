@@ -1,0 +1,53 @@
+
+% Consequence-aware selective memory extension
+
+\subsection{Commit Value}
+
+For candidate memory c define a transparent value score
+\[
+V_c =
+w_R R_c +
+w_S S_c +
+w_N N_c +
+w_U U_c +
+w_C C_c -
+w_I I_c ,
+\]
+where R is recurrence, S stability, N novelty, U measured downstream utility,
+C high-consequence evidence, and I interference or replacement cost.
+
+\subsection{Recent Utility}
+
+Stored utility should adapt to regime changes:
+\[
+\hat U_j(t)
+=
+(1-\eta_U)\hat U_j(t-1)
++
+\eta_U u_t .
+\]
+
+\subsection{Slow Reconsolidation}
+
+For high-confidence successful retrieval:
+\[
+\mathbf v_j
+\leftarrow
+(1-\alpha)\mathbf v_j
++
+\alpha\mathbf v_t ,
+\]
+with alpha substantially smaller than the effective recall rate.
+
+\subsection{Utility Reliability}
+
+If value feedback may be corrupted, introduce source reliability rho_s:
+\[
+U_c^{\rm eff}
+=
+\frac{\sum_s \rho_s u_{c,s}}
+{\sum_s \rho_s+\epsilon}.
+\]
+
+A single untrusted reward spike should not permanently consolidate a memory without
+corroboration.

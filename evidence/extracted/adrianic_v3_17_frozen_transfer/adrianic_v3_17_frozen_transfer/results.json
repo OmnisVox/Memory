@@ -1,0 +1,647 @@
+{
+  "frozen_controller": true,
+  "regimes": {
+    "baseline": {},
+    "high_disp": {
+      "k": 0.115
+    },
+    "low_damp": {
+      "lam": 0.105
+    },
+    "mode_shift": {
+      "mode": 5
+    },
+    "mixed": {
+      "k": 0.105,
+      "lam": 0.125,
+      "drive": 0.028,
+      "mode": 4,
+      "omega": 0.78
+    }
+  },
+  "tasks": {
+    "standard": {
+      "L": 100,
+      "cue": 12,
+      "false": 8,
+      "flip": 0.7
+    },
+    "long_gap": {
+      "L": 145,
+      "cue": 8,
+      "false": 8,
+      "flip": 0.65
+    },
+    "noisy_cue": {
+      "L": 110,
+      "cue": 16,
+      "false": 8,
+      "flip": 0.7
+    }
+  },
+  "matrix": [
+    {
+      "regime": "baseline",
+      "task": "standard",
+      "agent": "adaptive_parity",
+      "blank": 0.8083333333333333,
+      "post_wipe": 1.0,
+      "post_damage": 0.7963800904977375
+    },
+    {
+      "regime": "baseline",
+      "task": "standard",
+      "agent": "periodic_parity",
+      "blank": 0.7489583333333334,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7714932126696832
+    },
+    {
+      "regime": "baseline",
+      "task": "standard",
+      "agent": "working_only",
+      "blank": 0.45,
+      "post_wipe": 0.0,
+      "post_damage": 0.40271493212669685
+    },
+    {
+      "regime": "baseline",
+      "task": "standard",
+      "agent": "no_memory",
+      "blank": 0.39166666666666666,
+      "post_wipe": 0.39814814814814814,
+      "post_damage": 0.5
+    },
+    {
+      "regime": "baseline",
+      "task": "long_gap",
+      "agent": "adaptive_parity",
+      "blank": 0.7861757105943152,
+      "post_wipe": 1.0,
+      "post_damage": 0.7701863354037267
+    },
+    {
+      "regime": "baseline",
+      "task": "long_gap",
+      "agent": "periodic_parity",
+      "blank": 0.7312661498708011,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.6863354037267081
+    },
+    {
+      "regime": "baseline",
+      "task": "long_gap",
+      "agent": "working_only",
+      "blank": 0.4547803617571059,
+      "post_wipe": 0.0,
+      "post_damage": 0.41821946169772256
+    },
+    {
+      "regime": "baseline",
+      "task": "long_gap",
+      "agent": "no_memory",
+      "blank": 0.42700258397932817,
+      "post_wipe": 0.5208333333333333,
+      "post_damage": 0.49068322981366463
+    },
+    {
+      "regime": "baseline",
+      "task": "noisy_cue",
+      "agent": "adaptive_parity",
+      "blank": 0.7441860465116279,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.75
+    },
+    {
+      "regime": "baseline",
+      "task": "noisy_cue",
+      "agent": "periodic_parity",
+      "blank": 0.7761627906976745,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7093023255813953
+    },
+    {
+      "regime": "baseline",
+      "task": "noisy_cue",
+      "agent": "working_only",
+      "blank": 0.41957364341085274,
+      "post_wipe": 0.0,
+      "post_damage": 0.42248062015503873
+    },
+    {
+      "regime": "baseline",
+      "task": "noisy_cue",
+      "agent": "no_memory",
+      "blank": 0.44670542635658916,
+      "post_wipe": 0.5,
+      "post_damage": 0.5736434108527132
+    },
+    {
+      "regime": "high_disp",
+      "task": "standard",
+      "agent": "adaptive_parity",
+      "blank": 0.8083333333333333,
+      "post_wipe": 1.0,
+      "post_damage": 0.7963800904977375
+    },
+    {
+      "regime": "high_disp",
+      "task": "standard",
+      "agent": "periodic_parity",
+      "blank": 0.7489583333333334,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7714932126696832
+    },
+    {
+      "regime": "high_disp",
+      "task": "standard",
+      "agent": "working_only",
+      "blank": 0.45,
+      "post_wipe": 0.0,
+      "post_damage": 0.40271493212669685
+    },
+    {
+      "regime": "high_disp",
+      "task": "standard",
+      "agent": "no_memory",
+      "blank": 0.30104166666666665,
+      "post_wipe": 0.38271604938271603,
+      "post_damage": 0.24660633484162897
+    },
+    {
+      "regime": "high_disp",
+      "task": "long_gap",
+      "agent": "adaptive_parity",
+      "blank": 0.7861757105943152,
+      "post_wipe": 1.0,
+      "post_damage": 0.7701863354037267
+    },
+    {
+      "regime": "high_disp",
+      "task": "long_gap",
+      "agent": "periodic_parity",
+      "blank": 0.7312661498708011,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.6863354037267081
+    },
+    {
+      "regime": "high_disp",
+      "task": "long_gap",
+      "agent": "working_only",
+      "blank": 0.4547803617571059,
+      "post_wipe": 0.0,
+      "post_damage": 0.41821946169772256
+    },
+    {
+      "regime": "high_disp",
+      "task": "long_gap",
+      "agent": "no_memory",
+      "blank": 0.6233850129198966,
+      "post_wipe": 0.6937500000000001,
+      "post_damage": 0.5962732919254659
+    },
+    {
+      "regime": "high_disp",
+      "task": "noisy_cue",
+      "agent": "adaptive_parity",
+      "blank": 0.7441860465116279,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.75
+    },
+    {
+      "regime": "high_disp",
+      "task": "noisy_cue",
+      "agent": "periodic_parity",
+      "blank": 0.7761627906976745,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7093023255813953
+    },
+    {
+      "regime": "high_disp",
+      "task": "noisy_cue",
+      "agent": "working_only",
+      "blank": 0.41957364341085274,
+      "post_wipe": 0.0,
+      "post_damage": 0.42248062015503873
+    },
+    {
+      "regime": "high_disp",
+      "task": "noisy_cue",
+      "agent": "no_memory",
+      "blank": 0.40406976744186046,
+      "post_wipe": 0.425,
+      "post_damage": 0.6414728682170543
+    },
+    {
+      "regime": "low_damp",
+      "task": "standard",
+      "agent": "adaptive_parity",
+      "blank": 0.8083333333333333,
+      "post_wipe": 1.0,
+      "post_damage": 0.7963800904977375
+    },
+    {
+      "regime": "low_damp",
+      "task": "standard",
+      "agent": "periodic_parity",
+      "blank": 0.7489583333333334,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7714932126696832
+    },
+    {
+      "regime": "low_damp",
+      "task": "standard",
+      "agent": "working_only",
+      "blank": 0.45,
+      "post_wipe": 0.0,
+      "post_damage": 0.40271493212669685
+    },
+    {
+      "regime": "low_damp",
+      "task": "standard",
+      "agent": "no_memory",
+      "blank": 0.39166666666666666,
+      "post_wipe": 0.404320987654321,
+      "post_damage": 0.5
+    },
+    {
+      "regime": "low_damp",
+      "task": "long_gap",
+      "agent": "adaptive_parity",
+      "blank": 0.7861757105943152,
+      "post_wipe": 1.0,
+      "post_damage": 0.7701863354037267
+    },
+    {
+      "regime": "low_damp",
+      "task": "long_gap",
+      "agent": "periodic_parity",
+      "blank": 0.7312661498708011,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.6863354037267081
+    },
+    {
+      "regime": "low_damp",
+      "task": "long_gap",
+      "agent": "working_only",
+      "blank": 0.4547803617571059,
+      "post_wipe": 0.0,
+      "post_damage": 0.41821946169772256
+    },
+    {
+      "regime": "low_damp",
+      "task": "long_gap",
+      "agent": "no_memory",
+      "blank": 0.42377260981912146,
+      "post_wipe": 0.5166666666666666,
+      "post_damage": 0.47929606625258797
+    },
+    {
+      "regime": "low_damp",
+      "task": "noisy_cue",
+      "agent": "adaptive_parity",
+      "blank": 0.7441860465116279,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.75
+    },
+    {
+      "regime": "low_damp",
+      "task": "noisy_cue",
+      "agent": "periodic_parity",
+      "blank": 0.7761627906976745,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7093023255813953
+    },
+    {
+      "regime": "low_damp",
+      "task": "noisy_cue",
+      "agent": "working_only",
+      "blank": 0.41957364341085274,
+      "post_wipe": 0.0,
+      "post_damage": 0.42248062015503873
+    },
+    {
+      "regime": "low_damp",
+      "task": "noisy_cue",
+      "agent": "no_memory",
+      "blank": 0.4437984496124031,
+      "post_wipe": 0.5,
+      "post_damage": 0.5678294573643411
+    },
+    {
+      "regime": "mode_shift",
+      "task": "standard",
+      "agent": "adaptive_parity",
+      "blank": 0.8083333333333333,
+      "post_wipe": 1.0,
+      "post_damage": 0.7963800904977375
+    },
+    {
+      "regime": "mode_shift",
+      "task": "standard",
+      "agent": "periodic_parity",
+      "blank": 0.7489583333333334,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7714932126696832
+    },
+    {
+      "regime": "mode_shift",
+      "task": "standard",
+      "agent": "working_only",
+      "blank": 0.45,
+      "post_wipe": 0.0,
+      "post_damage": 0.40271493212669685
+    },
+    {
+      "regime": "mode_shift",
+      "task": "standard",
+      "agent": "no_memory",
+      "blank": 0.42604166666666665,
+      "post_wipe": 0.5833333333333333,
+      "post_damage": 0.3167420814479638
+    },
+    {
+      "regime": "mode_shift",
+      "task": "long_gap",
+      "agent": "adaptive_parity",
+      "blank": 0.7861757105943152,
+      "post_wipe": 1.0,
+      "post_damage": 0.7701863354037267
+    },
+    {
+      "regime": "mode_shift",
+      "task": "long_gap",
+      "agent": "periodic_parity",
+      "blank": 0.7312661498708011,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.6863354037267081
+    },
+    {
+      "regime": "mode_shift",
+      "task": "long_gap",
+      "agent": "working_only",
+      "blank": 0.4547803617571059,
+      "post_wipe": 0.0,
+      "post_damage": 0.41821946169772256
+    },
+    {
+      "regime": "mode_shift",
+      "task": "long_gap",
+      "agent": "no_memory",
+      "blank": 0.4838501291989664,
+      "post_wipe": 0.5125,
+      "post_damage": 0.6055900621118012
+    },
+    {
+      "regime": "mode_shift",
+      "task": "noisy_cue",
+      "agent": "adaptive_parity",
+      "blank": 0.7441860465116279,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.75
+    },
+    {
+      "regime": "mode_shift",
+      "task": "noisy_cue",
+      "agent": "periodic_parity",
+      "blank": 0.7761627906976745,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7093023255813953
+    },
+    {
+      "regime": "mode_shift",
+      "task": "noisy_cue",
+      "agent": "working_only",
+      "blank": 0.41957364341085274,
+      "post_wipe": 0.0,
+      "post_damage": 0.42248062015503873
+    },
+    {
+      "regime": "mode_shift",
+      "task": "noisy_cue",
+      "agent": "no_memory",
+      "blank": 0.38275193798449614,
+      "post_wipe": 0.4,
+      "post_damage": 0.37209302325581395
+    },
+    {
+      "regime": "mixed",
+      "task": "standard",
+      "agent": "adaptive_parity",
+      "blank": 0.8083333333333333,
+      "post_wipe": 1.0,
+      "post_damage": 0.7963800904977375
+    },
+    {
+      "regime": "mixed",
+      "task": "standard",
+      "agent": "periodic_parity",
+      "blank": 0.7489583333333334,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7714932126696832
+    },
+    {
+      "regime": "mixed",
+      "task": "standard",
+      "agent": "working_only",
+      "blank": 0.45,
+      "post_wipe": 0.0,
+      "post_damage": 0.40271493212669685
+    },
+    {
+      "regime": "mixed",
+      "task": "standard",
+      "agent": "no_memory",
+      "blank": 0.49375,
+      "post_wipe": 0.558641975308642,
+      "post_damage": 0.5678733031674208
+    },
+    {
+      "regime": "mixed",
+      "task": "long_gap",
+      "agent": "adaptive_parity",
+      "blank": 0.7861757105943152,
+      "post_wipe": 1.0,
+      "post_damage": 0.7701863354037267
+    },
+    {
+      "regime": "mixed",
+      "task": "long_gap",
+      "agent": "periodic_parity",
+      "blank": 0.7312661498708011,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.6863354037267081
+    },
+    {
+      "regime": "mixed",
+      "task": "long_gap",
+      "agent": "working_only",
+      "blank": 0.4547803617571059,
+      "post_wipe": 0.0,
+      "post_damage": 0.41821946169772256
+    },
+    {
+      "regime": "mixed",
+      "task": "long_gap",
+      "agent": "no_memory",
+      "blank": 0.40891472868217055,
+      "post_wipe": 0.44999999999999996,
+      "post_damage": 0.4182194616977226
+    },
+    {
+      "regime": "mixed",
+      "task": "noisy_cue",
+      "agent": "adaptive_parity",
+      "blank": 0.7441860465116279,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.75
+    },
+    {
+      "regime": "mixed",
+      "task": "noisy_cue",
+      "agent": "periodic_parity",
+      "blank": 0.7761627906976745,
+      "post_wipe": 0.8333333333333334,
+      "post_damage": 0.7093023255813953
+    },
+    {
+      "regime": "mixed",
+      "task": "noisy_cue",
+      "agent": "working_only",
+      "blank": 0.41957364341085274,
+      "post_wipe": 0.0,
+      "post_damage": 0.42248062015503873
+    },
+    {
+      "regime": "mixed",
+      "task": "noisy_cue",
+      "agent": "no_memory",
+      "blank": 0.32655038759689925,
+      "post_wipe": 0.49722222222222223,
+      "post_damage": 0.3003875968992248
+    }
+  ],
+  "aggregate": [
+    {
+      "agent": "adaptive_parity",
+      "median_blank": 0.7861757105943152,
+      "median_post_wipe": 1.0,
+      "median_post_damage": 0.7701863354037267,
+      "worst_post_wipe": 0.8333333333333334,
+      "worst_post_damage": 0.75
+    },
+    {
+      "agent": "periodic_parity",
+      "median_blank": 0.7489583333333334,
+      "median_post_wipe": 0.8333333333333334,
+      "median_post_damage": 0.7093023255813953,
+      "worst_post_wipe": 0.8333333333333334,
+      "worst_post_damage": 0.6863354037267081
+    },
+    {
+      "agent": "working_only",
+      "median_blank": 0.45,
+      "median_post_wipe": 0.0,
+      "median_post_damage": 0.41821946169772256,
+      "worst_post_wipe": 0.0,
+      "worst_post_damage": 0.40271493212669685
+    },
+    {
+      "agent": "no_memory",
+      "median_blank": 0.42490713824289406,
+      "median_post_wipe": 0.5,
+      "median_post_damage": 0.4953416149068323,
+      "worst_post_wipe": 0.38271604938271603,
+      "worst_post_damage": 0.24660633484162897
+    }
+  ],
+  "cold_start": [
+    {
+      "regime": "baseline",
+      "parity": false,
+      "mean": 0.5,
+      "median": 0.5
+    },
+    {
+      "regime": "baseline",
+      "parity": true,
+      "mean": 1.0,
+      "median": 1.0
+    },
+    {
+      "regime": "high_disp",
+      "parity": false,
+      "mean": 0.5,
+      "median": 0.5
+    },
+    {
+      "regime": "high_disp",
+      "parity": true,
+      "mean": 1.0,
+      "median": 1.0
+    },
+    {
+      "regime": "low_damp",
+      "parity": false,
+      "mean": 0.5,
+      "median": 0.5
+    },
+    {
+      "regime": "low_damp",
+      "parity": true,
+      "mean": 1.0,
+      "median": 1.0
+    },
+    {
+      "regime": "mode_shift",
+      "parity": false,
+      "mean": 0.5,
+      "median": 0.5
+    },
+    {
+      "regime": "mode_shift",
+      "parity": true,
+      "mean": 1.0,
+      "median": 1.0
+    },
+    {
+      "regime": "mixed",
+      "parity": false,
+      "mean": 0.5,
+      "median": 0.5
+    },
+    {
+      "regime": "mixed",
+      "parity": true,
+      "mean": 1.0,
+      "median": 1.0
+    }
+  ],
+  "regime_switch": [
+    {
+      "agent": "adaptive_parity",
+      "pre": 0.7566666666666667,
+      "post": 0.3566666666666667
+    },
+    {
+      "agent": "periodic_parity",
+      "pre": 0.7533333333333333,
+      "post": 0.3566666666666667
+    },
+    {
+      "agent": "working_only",
+      "pre": 0.7666666666666667,
+      "post": 0.36666666666666664
+    },
+    {
+      "agent": "no_memory",
+      "pre": 0.41333333333333333,
+      "post": 0.6233333333333333
+    }
+  ],
+  "guardrails": [
+    "No memory thresholds were retuned per regime or task.",
+    "This is transfer within a designed family of nonlinear field-control tasks, not arbitrary cognition.",
+    "Cold-start tests erase working memory and corrupt both primary durable banks before cue-free retrieval."
+  ]
+}

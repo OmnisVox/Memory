@@ -1,0 +1,24 @@
+% Causal replacement gate
+\subsection{Counterfactual Replacement Margin}
+
+A corrected memory value should not trigger replacement solely because the candidate exceeds an absolute commit threshold.
+
+For candidate $c$ and proposed evicted slot $j$, define
+\[
+\Delta V_{c\rightarrow j}
+=
+\mathbb E[U_c^{\rm future}]
+-
+\mathbb E[U_j^{\rm future}]
+-
+I(c,j),
+\]
+where $I(c,j)$ is the expected interference/replacement cost.
+
+Require
+\[
+\Delta V_{c\rightarrow j}>m_{\rm replace}
+\]
+before permanent replacement.
+
+This separates local evidence quality from global finite-capacity memory allocation.

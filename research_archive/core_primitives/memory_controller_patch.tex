@@ -1,0 +1,56 @@
+
+% Adrianic memory controller candidate
+
+\subsection{Separated Learning and Recall Timescales}
+
+\begin{align}
+\frac{\partial \chi}{\partial t}
+&=
+D_\chi\nabla^2\chi
++
+L(t)\frac{\psi-\chi}{\tau_L},\\
+\left.\frac{\partial\psi}{\partial t}\right|_{\rm recall}
+&=
+R(t)\mu_R(\chi-\psi).
+\end{align}
+
+Define phase-invariant overlap
+\begin{align}
+\mathcal O(a,b)
+=
+\frac{|\langle a,b\rangle|}
+{\|a\|_2\|b\|_2+\epsilon}.
+\end{align}
+
+Define source-of-surprise signals
+\begin{align}
+S_\psi &= 1-\mathcal O(\psi_{t^-},\psi_t),\\
+S_\chi &= 1-\mathcal O(\chi_{t^-},\chi_t),\\
+E_{\psi\chi} &= 1-\mathcal O(\psi_t,\chi_t).
+\end{align}
+
+A transparent controller may use:
+
+\begin{itemize}
+\item If $S_\psi>S_\chi+\Delta$ and $E_{\psi\chi}>E_0$:
+      set $L(t)=0$ temporarily and retain fast recall.
+\item If $S_\chi>S_\psi+\Delta$ and $E_{\psi\chi}>E_0$:
+      set $R(t)=0$ temporarily and re-teach $\chi$ from $\psi$.
+\item If both $S_\psi$ and $S_\chi$ exceed a damage threshold:
+      use symmetric/equal repair until a reliable source emerges.
+\item Otherwise use a fast-recall/slow-learning normal mode.
+\end{itemize}
+
+For memory-source damage, a severity-scaled repair interval is
+\begin{align}
+T_{\rm repair}
+=
+\operatorname{clip}
+\left[
+\tau_L(0.5+2S_\chi),T_{\min},T_{\max}
+\right].
+\end{align}
+
+In the current numerical benchmark, a useful operating regime was
+$\mu_R=5$, $\tau_L=2$, with recall updates approximately 24 times more
+frequent than learning updates during normal operation.

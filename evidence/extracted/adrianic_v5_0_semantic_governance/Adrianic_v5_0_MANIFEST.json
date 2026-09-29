@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "name": "Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_DIRECT_VERIFIED.py",
+      "bytes": 28938,
+      "sha256": "09fcd187cb7b43cb694a361abd738af3299d0529bb111491d1ee373c32123916"
+    },
+    {
+      "name": "Adrianic_v5_0_SemanticProposal_ConsequenceGovernance_COLAB_SAFE.ipynb",
+      "bytes": 50969,
+      "sha256": "dfdd5e72d2015a09ccc864b312cf0cf98a122894aedda15bc51ec4322aa78cfc"
+    },
+    {
+      "name": "Adrianic_v5_0_LOCAL_8SEED_VERIFIED_REPORT.md",
+      "bytes": 8027,
+      "sha256": "496fd27c5eae3b10bf9d9978a7b7aebcdd6ea096f18512976fdd3032cff4ca0d"
+    },
+    {
+      "name": "8seed_summary.csv",
+      "bytes": 3126,
+      "sha256": "aa2dca695716e587a7ef22937d40f03bd195beea1198df43fb968bfc589347ce"
+    },
+    {
+      "name": "8seed_details.csv",
+      "bytes": 842436,
+      "sha256": "0fd31b744ef7234ad49c6f7f934e5dfca45143c8a20ca3b3c7402ae4c9e2f3d9"
+    },
+    {
+      "name": "8seed_semantic_proposals.csv",
+      "bytes": 184600,
+      "sha256": "a3207fa60fc9ad6492f619e8c9c34680331581186f496223cd270d7b395eba99"
+    },
+    {
+      "name": "8seed_checks.json",
+      "bytes": 1164,
+      "sha256": "7c5faddb758cac101ab6ee21afdf2580b55ee538973cc3e52664feb9c5e48b1f"
+    },
+    {
+      "name": "v50_8seed_pooled_metrics_VERIFIED.csv",
+      "bytes": 682,
+      "sha256": "df70cd6b8ba505f90e8360682be023dad87fe768550e94885a478239a5a878d4"
+    }
+  ]
+}

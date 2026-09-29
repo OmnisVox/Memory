@@ -1,0 +1,7 @@
+corruption,resolution_rate,exact_accuracy,raw_nearest_accuracy,margin_median,final_overlap_median
+amp_noise,0.0,0.0,0.75,3.72611077646412e-05,
+dropout_25,0.0,0.0,0.5666666666666667,3.426420187296886e-05,
+dropout_50,0.0,0.0,0.30416666666666664,5.8094619065474085e-05,
+mixed,0.0,0.0,0.875,3.716125928954206e-05,
+phase_wipe,0.0,0.0,1.0,3.7688690670834024e-05,
+random_phase,0.0,0.0,1.0,3.7688690670834024e-05,

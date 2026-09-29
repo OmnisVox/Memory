@@ -1,0 +1,7 @@
+metric,value
+best_margin,0.16
+mean_paired_improvement,0.020528153662077674
+median_paired_improvement,0.02121785170166879
+fraction_seeds_improved,0.7916666666666666
+p05_difference,-0.010956460542588135
+p95_difference,0.04808019751242482

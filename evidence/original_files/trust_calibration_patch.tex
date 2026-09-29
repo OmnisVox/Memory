@@ -1,0 +1,75 @@
+
+% Adrianic Trust-Calibrated Value Evidence Layer
+
+\subsection{Per-Source Reliability}
+
+For source s reporting utility u_s and later verified consequence y:
+\[
+q_s = \exp\left(-\frac{|u_s-y|}{\sigma_u}\right),
+\]
+\[
+\rho_s(t+1)
+=
+(1-\eta_\rho)\rho_s(t)
++
+\eta_\rho q_s.
+\]
+
+Track source bias:
+\[
+b_s(t+1)
+=
+(1-\eta_b)b_s(t)
++
+\eta_b(u_s-y).
+\]
+
+Use the de-biased report
+\[
+\tilde u_s=u_s-b_s.
+\]
+
+\subsection{Trust-Weighted Utility}
+
+For exponent gamma:
+\[
+w_s
+=
+\frac{\rho_s^\gamma}
+{\sum_r \rho_r^\gamma+\epsilon},
+\]
+\[
+U_{\rm eff}
+=
+\sum_s w_s\tilde u_s.
+\]
+
+\subsection{Provenance Constraint}
+
+Sources sharing one causal provenance group must not multiply their voting influence merely
+by creating multiple identities. Correlated aliases share a bounded group weight.
+
+\subsection{Evidence Tiers}
+
+Value evidence should retain provenance:
+
+\[
+E_u \in
+\{
+\text{raw},
+\text{debiased},
+\text{trust-weighted},
+\text{independently corroborated},
+\text{verified}
+\}.
+\]
+
+Verified consequence is not merely another report; it is a higher-grade evidence class.
+
+\subsection{Unresolved Value}
+
+If source reliability, independence or agreement is insufficient, return
+\[
+\boxed{\mathrm{VALUE\_UNRESOLVED}}
+\]
+and preserve the candidate in HOLD rather than silently falling back to recurrence-only commitment.

@@ -1,0 +1,193 @@
+{
+  "source_basis": {
+    "trust_update": "q_s=exp(-|u_s-y|/sigma); rho_s<-(1-eta)rho_s+eta q_s",
+    "bias_update": "b_s<-(1-eta)b_s+eta(u_s-y)",
+    "weighting": "w_s proportional to rho_s^3",
+    "provenance": "A and B share one durable-memory provenance group in the main adaptive controller",
+    "hold": "VALUE_UNRESOLVED/HOLD when evidence is weak or strongly conflicting; HOLD does not fall back to recurrence-only",
+    "verified_consequence": "sparse objective verification directly updates both source trust and working memory"
+  },
+  "experiment": {
+    "switch_step": 432,
+    "pre_switch": "baseline Adrianic-like field; action polarity +1",
+    "post_switch": "changed dispersion/damping/slow field/mode/drive; actuator/task polarity reverses",
+    "bank_damage_step": 650,
+    "interpretation": "old memories remain structurally valid but become semantically wrong after the switch; later both durable banks are physically corrupted and parity reconstructs them"
+  },
+  "summaries": [
+    {
+      "config": "equal",
+      "pre_accuracy": 0.42592592592592593,
+      "early_post_switch_accuracy": 0.6759259259259259,
+      "late_post_switch_accuracy": 0.38257575757575757,
+      "final_rho_A": 0.5,
+      "final_rho_B": 0.5,
+      "final_rho_work": 0.5,
+      "final_rho_field": 0.5,
+      "hold_fraction": 0.3298611111111111,
+      "commits": 6.0
+    },
+    {
+      "config": "frozen_trust",
+      "pre_accuracy": 0.625,
+      "early_post_switch_accuracy": 0.42592592592592593,
+      "late_post_switch_accuracy": 0.6553030303030303,
+      "final_rho_A": 0.7057816820795391,
+      "final_rho_B": 0.3169113669976289,
+      "final_rho_work": 0.57696066325223,
+      "final_rho_field": 0.1645233695467082,
+      "hold_fraction": 0.11921296296296297,
+      "commits": 9.0
+    },
+    {
+      "config": "adaptive",
+      "pre_accuracy": 0.625,
+      "early_post_switch_accuracy": 0.6111111111111112,
+      "late_post_switch_accuracy": 0.5852272727272727,
+      "final_rho_A": 0.3771026163204848,
+      "final_rho_B": 0.39206194701609803,
+      "final_rho_work": 0.44326805986674056,
+      "final_rho_field": 0.20782790102210752,
+      "hold_fraction": 0.13831018518518517,
+      "commits": 9.5
+    },
+    {
+      "config": "adaptive_no_prov",
+      "pre_accuracy": 0.6134259259259259,
+      "early_post_switch_accuracy": 0.6296296296296297,
+      "late_post_switch_accuracy": 0.5681818181818181,
+      "final_rho_A": 0.3992165000522735,
+      "final_rho_B": 0.3643783886265499,
+      "final_rho_work": 0.4342218863878591,
+      "final_rho_field": 0.22368976861818302,
+      "hold_fraction": 0.14641203703703703,
+      "commits": 9.0
+    },
+    {
+      "config": "oracle",
+      "pre_accuracy": 1.0,
+      "early_post_switch_accuracy": 1.0,
+      "late_post_switch_accuracy": 1.0,
+      "final_rho_A": 0.43151035657946224,
+      "final_rho_B": 0.6098137789098854,
+      "final_rho_work": 0.8827282890603761,
+      "final_rho_field": 0.14346319012656236,
+      "hold_fraction": 0.0,
+      "commits": 18.0
+    }
+  ],
+  "verification_sweep": [
+    {
+      "verify_prob": 0.0,
+      "late_accuracy": 0.38257575757575757
+    },
+    {
+      "verify_prob": 0.02,
+      "late_accuracy": 0.4564393939393939
+    },
+    {
+      "verify_prob": 0.05,
+      "late_accuracy": 0.4753787878787879
+    },
+    {
+      "verify_prob": 0.1,
+      "late_accuracy": 0.571969696969697
+    },
+    {
+      "verify_prob": 0.3,
+      "late_accuracy": 0.9753787878787878
+    }
+  ],
+  "guardrails": [
+    "The polarity reversal is an engineered structural regime shift intended to make old memories wrong, not a claim that the original Adrianic PDE naturally flips semantics.",
+    "Trust equations and evidence hierarchy are taken from the uploaded trust-calibration patch/report.",
+    "Objective verification is required to ground trust; source agreement alone is not treated as truth.",
+    "Parity repairs storage integrity but cannot decide whether a perfectly reconstructed memory remains relevant in a new regime."
+  ],
+  "adaptive_vs_frozen_verification_matrix": [
+    {
+      "verify_prob": 0.1,
+      "config": "frozen_trust",
+      "early_median": 0.42592592592592593,
+      "late_median": 0.6553030303030303,
+      "hold_median": 0.12905092592592593
+    },
+    {
+      "verify_prob": 0.1,
+      "config": "adaptive",
+      "early_median": 0.6481481481481481,
+      "late_median": 0.6477272727272727,
+      "hold_median": 0.13020833333333334
+    },
+    {
+      "verify_prob": 0.1,
+      "config": "adaptive_no_prov",
+      "early_median": 0.5648148148148148,
+      "late_median": 0.6420454545454546,
+      "hold_median": 0.15162037037037038
+    },
+    {
+      "verify_prob": 0.2,
+      "config": "frozen_trust",
+      "early_median": 0.42592592592592593,
+      "late_median": 0.6515151515151515,
+      "hold_median": 0.11168981481481481
+    },
+    {
+      "verify_prob": 0.2,
+      "config": "adaptive",
+      "early_median": 0.7638888888888888,
+      "late_median": 0.8257575757575758,
+      "hold_median": 0.09317129629629631
+    },
+    {
+      "verify_prob": 0.2,
+      "config": "adaptive_no_prov",
+      "early_median": 0.7962962962962963,
+      "late_median": 0.8087121212121211,
+      "hold_median": 0.10185185185185185
+    },
+    {
+      "verify_prob": 0.3,
+      "config": "frozen_trust",
+      "early_median": 0.42592592592592593,
+      "late_median": 0.6477272727272727,
+      "hold_median": 0.09837962962962964
+    },
+    {
+      "verify_prob": 0.3,
+      "config": "adaptive",
+      "early_median": 0.8796296296296295,
+      "late_median": 0.9412878787878789,
+      "hold_median": 0.07349537037037038
+    },
+    {
+      "verify_prob": 0.3,
+      "config": "adaptive_no_prov",
+      "early_median": 0.875,
+      "late_median": 0.9128787878787878,
+      "hold_median": 0.08564814814814814
+    },
+    {
+      "verify_prob": 0.5,
+      "config": "frozen_trust",
+      "early_median": 0.42592592592592593,
+      "late_median": 0.6477272727272727,
+      "hold_median": 0.08796296296296297
+    },
+    {
+      "verify_prob": 0.5,
+      "config": "adaptive",
+      "early_median": 1.0,
+      "late_median": 1.0,
+      "hold_median": 0.03819444444444445
+    },
+    {
+      "verify_prob": 0.5,
+      "config": "adaptive_no_prov",
+      "early_median": 1.0,
+      "late_median": 1.0,
+      "hold_median": 0.046875
+    }
+  ]
+}

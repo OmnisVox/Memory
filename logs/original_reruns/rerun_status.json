@@ -1,0 +1,27 @@
+{
+  "v3_18": {
+    "source": "experiments/v3_18_trust_adaptation/run_v318.py",
+    "status": "PASS",
+    "comparison": "regenerated results.json exactly matches recovered original results.json"
+  },
+  "v3_19": {
+    "source": "experiments/v3_19_evidence_graph/run_v319.py",
+    "status": "NOT_COMPLETED_LOCAL_TIMEOUT",
+    "comparison": "source preserved; no pass/fail inference from timeout"
+  },
+  "v3_21": {
+    "source": "experiments/v3_21_latent_common_cause/run_v321.py",
+    "status": "PASS",
+    "comparison": "regenerated results.json exactly matches recovered original results.json"
+  },
+  "evidence_graph_v3_anchor_filter": {
+    "status": "PASS_REPRODUCED",
+    "runner": "experiments/evidence_graph_v3/anchor_filter_test.py",
+    "note": "Printed aggregate matches preserved anchor_filter_aggregate.csv."
+  },
+  "field_replacement_integration_base": {
+    "status": "NOT_COMPLETED_LOCAL_TIMEOUT",
+    "runner": "experiments/field_replacement_gate/field_replacement_integration_base.py",
+    "note": "Exceeded 45-second local execution window; not interpreted as pass/fail."
+  }
+}

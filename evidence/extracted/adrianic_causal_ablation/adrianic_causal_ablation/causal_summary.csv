@@ -1,0 +1,14 @@
+metric,value
+all verification events,2100.0
+corrupted anchors,388.0
+anchors changed by filter,324.0
+mean raw anchor abs error,0.38007439743147436
+mean corrected anchor abs error,0.07316515448045809
+mean trust path distance,0.01580640816490651
+fraction immediate slot paths differ,0.04619047619047619
+fraction end slot paths differ,0.05333333333333334
+fraction future decisions diverge,0.11619047619047619
+mean horizon utility delta,0.09337587925724668
+mean horizon utility delta on corrupted anchors,0.5127292001412082
+fraction corrected path better on corrupted anchors,0.3324742268041237
+fraction corrected path worse on corrupted anchors,0.15721649484536082

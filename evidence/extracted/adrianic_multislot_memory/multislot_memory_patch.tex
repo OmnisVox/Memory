@@ -1,0 +1,86 @@
+
+% Adrianic Multi-Slot Complex Memory Candidate
+
+\subsection{Memory Bank}
+
+Let the memory bank contain $M$ independent complex fields:
+\begin{align}
+\mathcal B
+=
+\{(\chi_j,\mathbf v_j,u_j,t_j)\}_{j=1}^{M},
+\end{align}
+where $\chi_j$ is the stored dynamical template, $\mathbf v_j$ is an
+interpretable address vector, $u_j$ is usage metadata, and $t_j$ is recency.
+
+\subsection{Transparent Address Vector}
+
+For the current vortex-family implementation:
+\begin{align}
+\mathbf v
+=
+(
+x_1,y_1,x_2,y_2,
+x_c,y_c,d,
+\bar x_A,\bar y_A,
+\Sigma_{xx},\Sigma_{yy},\Sigma_{xy}
+).
+\end{align}
+
+The first seven coordinates describe the two low-amplitude core locations,
+their center and separation. The remaining five describe amplitude centroid
+and covariance.
+
+\subsection{Address Distance}
+
+For per-coordinate scale $s_k$:
+\begin{align}
+D_j
+=
+\sqrt{
+\frac{1}{K}
+\sum_{k=1}^{K}
+\left(
+\frac{v_k-v_{jk}}{s_k}
+\right)^2
+}.
+\end{align}
+
+Let $D_{(1)}$ and $D_{(2)}$ be the best and second-best matches.
+Define the confidence margin
+\begin{align}
+\Delta_D=D_{(2)}-D_{(1)}.
+\end{align}
+
+If $\Delta_D<\Delta_{\min}$, the address controller returns
+\[
+\boxed{\mathrm{HOLD\ UNRESOLVED}}
+\]
+rather than forcing a memory selection.
+
+\subsection{Recall}
+
+For selected slot $j$:
+\begin{align}
+\left.\frac{\partial\psi}{\partial t}\right|_{\rm recall}
+=
+R_j(t)\mu_R(\chi_j-\psi).
+\end{align}
+
+\subsection{Commit and Replacement}
+
+If an experience is accepted for storage and an empty slot exists, allocate it.
+If the bank is full, a transparent replacement utility may be
+\begin{align}
+U_j
+=
+\frac{n_j}{1+\alpha a_j},
+\end{align}
+where $n_j$ is use count and $a_j$ is time since last access.
+The lowest-utility slot is the replacement candidate.
+
+\subsection{Ambiguity Rule}
+
+If two stored states share the same reliable address information after corruption,
+the system must not infer missing information.  For example, opposite chiralities
+with identical amplitudes are indistinguishable after total phase erasure unless
+a contextual or temporal cue is available.

@@ -1,0 +1,191 @@
+{
+  "goal": "infer hidden source dependence from verified residual correlations rather than supplied provenance labels",
+  "sources": [
+    "A",
+    "B",
+    "C1",
+    "C2",
+    "C3",
+    "D",
+    "E"
+  ],
+  "summary": [
+    {
+      "scenario": "collusion",
+      "mode": "equal",
+      "accuracy": 0.5688888888888889,
+      "post_accuracy": 0.5688888888888889,
+      "hold_rate": 0.5144444444444445,
+      "junk_fraction": 0.0,
+      "alias_detection": null
+    },
+    {
+      "scenario": "collusion",
+      "mode": "scalar_trust",
+      "accuracy": 0.8883333333333333,
+      "post_accuracy": 0.8955555555555555,
+      "hold_rate": 0.17888888888888888,
+      "junk_fraction": 0.035264707375260135,
+      "alias_detection": null
+    },
+    {
+      "scenario": "collusion",
+      "mode": "manual_provenance",
+      "accuracy": 0.9016666666666666,
+      "post_accuracy": 0.9011111111111112,
+      "hold_rate": 0.14444444444444443,
+      "junk_fraction": 0.024589063171465406,
+      "alias_detection": null
+    },
+    {
+      "scenario": "collusion",
+      "mode": "learned_graph",
+      "accuracy": 0.8977777777777778,
+      "post_accuracy": 0.9033333333333333,
+      "hold_rate": 0.15555555555555556,
+      "junk_fraction": 0.022721407927332783,
+      "alias_detection": 1.0
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "equal",
+      "accuracy": 0.47833333333333333,
+      "post_accuracy": 0.47555555555555556,
+      "hold_rate": 0.45944444444444443,
+      "junk_fraction": 0.0,
+      "alias_detection": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "scalar_trust",
+      "accuracy": 0.7016666666666667,
+      "post_accuracy": 0.7155555555555555,
+      "hold_rate": 0.22999999999999998,
+      "junk_fraction": 0.19523809523809524,
+      "alias_detection": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "manual_provenance",
+      "accuracy": 0.7283333333333333,
+      "post_accuracy": 0.7366666666666666,
+      "hold_rate": 0.14833333333333332,
+      "junk_fraction": 0.22113199532759903,
+      "alias_detection": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "learned_graph",
+      "accuracy": 0.7133333333333334,
+      "post_accuracy": 0.7188888888888889,
+      "hold_rate": 0.19111111111111112,
+      "junk_fraction": 0.23341060562155896,
+      "alias_detection": 1.0
+    },
+    {
+      "scenario": "dependency_reversal",
+      "mode": "equal",
+      "accuracy": 0.6772222222222222,
+      "post_accuracy": 0.778888888888889,
+      "hold_rate": 0.4172222222222222,
+      "junk_fraction": 0.0,
+      "alias_detection": null
+    },
+    {
+      "scenario": "dependency_reversal",
+      "mode": "scalar_trust",
+      "accuracy": 0.8783333333333333,
+      "post_accuracy": 0.87,
+      "hold_rate": 0.19166666666666665,
+      "junk_fraction": 0.007692307692307693,
+      "alias_detection": null
+    },
+    {
+      "scenario": "dependency_reversal",
+      "mode": "manual_provenance",
+      "accuracy": 0.8933333333333333,
+      "post_accuracy": 0.88,
+      "hold_rate": 0.15333333333333332,
+      "junk_fraction": 0.03143058491895701,
+      "alias_detection": null
+    },
+    {
+      "scenario": "dependency_reversal",
+      "mode": "learned_graph",
+      "accuracy": 0.885,
+      "post_accuracy": 0.87,
+      "hold_rate": 0.1811111111111111,
+      "junk_fraction": 0.022902097902097903,
+      "alias_detection": 0.0
+    }
+  ],
+  "verification_sweep": [
+    {
+      "verify_prob": 0,
+      "accuracy": 0.5705555555555555,
+      "alias_detection": 0.0,
+      "junk_fraction": 0.0
+    },
+    {
+      "verify_prob": 0.02,
+      "accuracy": 0.8394444444444444,
+      "alias_detection": 1.0,
+      "junk_fraction": 0.0
+    },
+    {
+      "verify_prob": 0.05,
+      "accuracy": 0.8688888888888888,
+      "alias_detection": 1.0,
+      "junk_fraction": 0.023411829134720702
+    },
+    {
+      "verify_prob": 0.1,
+      "accuracy": 0.8833333333333333,
+      "alias_detection": 1.0,
+      "junk_fraction": 0.03339805023132848
+    },
+    {
+      "verify_prob": 0.2,
+      "accuracy": 0.8966666666666666,
+      "alias_detection": 0.9555555555555555,
+      "junk_fraction": 0.029437229437229435
+    },
+    {
+      "verify_prob": 0.3,
+      "accuracy": 0.9105555555555556,
+      "alias_detection": 0.9777777777777779,
+      "junk_fraction": 0.025847416472416472
+    }
+  ],
+  "representative_groups": [
+    [
+      "A"
+    ],
+    [
+      "B"
+    ],
+    [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    [
+      "D"
+    ],
+    [
+      "E"
+    ]
+  ],
+  "guardrails": [
+    "Residual correlation is evidence of dependence, not full causal identification.",
+    "The 0.72 graph threshold is hand-set.",
+    "Common-mode failure remains difficult when nominally independent sources fail together.",
+    "The downstream memory score includes junk durable writes so learned dependence affects memory quality, not only voting."
+  ],
+  "dependency_reversal_trace": {
+    "switch_step": 450,
+    "final_corr_C1_C2": 0.544430734213801,
+    "final_corr_B_D": 0.9070776895195024,
+    "final_C_alias_group_size": 1
+  }
+}

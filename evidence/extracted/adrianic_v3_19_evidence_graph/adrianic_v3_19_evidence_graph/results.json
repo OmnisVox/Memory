@@ -1,0 +1,154 @@
+{
+  "improvements": [
+    "fast+slow trust",
+    "change detection from verified residuals",
+    "regime quarantine",
+    "regime-tagged durable memory",
+    "reactivation on return",
+    "provenance cap",
+    "correlated-error penalty",
+    "verifier confidence",
+    "VALUE_UNRESOLVED/HOLD"
+  ],
+  "main": [
+    {
+      "config": "equal",
+      "old": 0.6666666666666666,
+      "new_early": 0.7272727272727273,
+      "new_late": 1.0,
+      "return_early": 1.0,
+      "return_late": 0.07692307692307693,
+      "reactivations": 0.0,
+      "changes": 5.5
+    },
+    {
+      "config": "plain",
+      "old": 0.6666666666666666,
+      "new_early": 0.5,
+      "new_late": 1.0,
+      "return_early": 1.0,
+      "return_late": 0.1346153846153846,
+      "reactivations": 0.0,
+      "changes": 5.0
+    },
+    {
+      "config": "graph",
+      "old": 0.75,
+      "new_early": 0.7651515151515151,
+      "new_late": 1.0,
+      "return_early": 1.0,
+      "return_late": 0.8076923076923077,
+      "reactivations": 1.5,
+      "changes": 4.0
+    }
+  ],
+  "verification_sweep": [
+    {
+      "verify_prob": 0,
+      "new_late": 1.0,
+      "return_late": 0.07692307692307693,
+      "changes": 0.0
+    },
+    {
+      "verify_prob": 0.05,
+      "new_late": 1.0,
+      "return_late": 0.23076923076923078,
+      "changes": 1.5
+    },
+    {
+      "verify_prob": 0.1,
+      "new_late": 1.0,
+      "return_late": 0.7019230769230769,
+      "changes": 2.0
+    },
+    {
+      "verify_prob": 0.2,
+      "new_late": 1.0,
+      "return_late": 1.0,
+      "changes": 3.0
+    },
+    {
+      "verify_prob": 0.3,
+      "new_late": 1.0,
+      "return_late": 1.0,
+      "changes": 4.0
+    }
+  ],
+  "verifier_noise": [
+    {
+      "verifier_noise": 0,
+      "new_late": 1.0,
+      "verifier_rho": 0.9996783718479395
+    },
+    {
+      "verifier_noise": 0.1,
+      "new_late": 1.0,
+      "verifier_rho": 0.9083951006666914
+    },
+    {
+      "verifier_noise": 0.2,
+      "new_late": 1.0,
+      "verifier_rho": 0.8693483735280728
+    },
+    {
+      "verifier_noise": 0.35,
+      "new_late": 1.0,
+      "verifier_rho": 0.7300404880407804
+    }
+  ],
+  "guardrails": [
+    "The controller is not given switch times; change detection comes from verified residuals.",
+    "Return matching uses observable field mode as a simple regime key.",
+    "Common-mode failure still requires independent evidence."
+  ],
+  "common_mode_evidence_benchmark": [
+    {
+      "hidden_common_mode": false,
+      "config": "equal",
+      "late_accuracy_mean": 0.21057142857142858,
+      "late_accuracy_std": 0.06798219054496933
+    },
+    {
+      "hidden_common_mode": false,
+      "config": "trust",
+      "late_accuracy_mean": 0.8915238095238095,
+      "late_accuracy_std": 0.02631554552936223
+    },
+    {
+      "hidden_common_mode": false,
+      "config": "prov",
+      "late_accuracy_mean": 0.8926666666666666,
+      "late_accuracy_std": 0.02623476774337354
+    },
+    {
+      "hidden_common_mode": false,
+      "config": "graph",
+      "late_accuracy_mean": 0.8926666666666666,
+      "late_accuracy_std": 0.02623476774337354
+    },
+    {
+      "hidden_common_mode": true,
+      "config": "equal",
+      "late_accuracy_mean": 0.2244761904761905,
+      "late_accuracy_std": 0.058987757675263056
+    },
+    {
+      "hidden_common_mode": true,
+      "config": "trust",
+      "late_accuracy_mean": 0.6642857142857143,
+      "late_accuracy_std": 0.05097017935688937
+    },
+    {
+      "hidden_common_mode": true,
+      "config": "prov",
+      "late_accuracy_mean": 0.6742857142857143,
+      "late_accuracy_std": 0.04489746443759569
+    },
+    {
+      "hidden_common_mode": true,
+      "config": "graph",
+      "late_accuracy_mean": 0.6717142857142858,
+      "late_accuracy_std": 0.04588272539633972
+    }
+  ]
+}

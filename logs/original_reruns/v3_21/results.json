@@ -1,0 +1,213 @@
+{
+  "summary": [
+    {
+      "scenario": "independent",
+      "mode": "equal",
+      "accuracy": 0.7233333333333334,
+      "post_accuracy": 0.7225,
+      "bad_write_fraction": 0.0,
+      "factor_match": null
+    },
+    {
+      "scenario": "independent",
+      "mode": "scalar",
+      "accuracy": 0.9295833333333333,
+      "post_accuracy": 0.9466666666666667,
+      "bad_write_fraction": 0.0,
+      "factor_match": null
+    },
+    {
+      "scenario": "independent",
+      "mode": "graph",
+      "accuracy": 0.9529166666666666,
+      "post_accuracy": 0.9666666666666667,
+      "bad_write_fraction": 0.023912634155526268,
+      "factor_match": null
+    },
+    {
+      "scenario": "independent",
+      "mode": "factor",
+      "accuracy": 0.9537500000000001,
+      "post_accuracy": 0.9616666666666667,
+      "bad_write_fraction": 0.022323094142519588,
+      "factor_match": NaN
+    },
+    {
+      "scenario": "independent",
+      "mode": "multifactor",
+      "accuracy": 0.9479166666666667,
+      "post_accuracy": 0.9516666666666667,
+      "bad_write_fraction": 0.043587327742413154,
+      "factor_match": NaN
+    },
+    {
+      "scenario": "independent",
+      "mode": "oracle",
+      "accuracy": 0.9508333333333334,
+      "post_accuracy": 0.9608333333333334,
+      "bad_write_fraction": 0.005154639175257732,
+      "factor_match": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "equal",
+      "accuracy": 0.5866666666666667,
+      "post_accuracy": 0.5933333333333333,
+      "bad_write_fraction": 0.0,
+      "factor_match": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "scalar",
+      "accuracy": 0.8304166666666667,
+      "post_accuracy": 0.8558333333333333,
+      "bad_write_fraction": 0.08935733419594362,
+      "factor_match": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "graph",
+      "accuracy": 0.8620833333333333,
+      "post_accuracy": 0.8808333333333334,
+      "bad_write_fraction": 0.10426572492762885,
+      "factor_match": null
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "factor",
+      "accuracy": 0.8541666666666666,
+      "post_accuracy": 0.8691666666666666,
+      "bad_write_fraction": 0.10136759317603677,
+      "factor_match": 0.18321428571428566
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "multifactor",
+      "accuracy": 0.8658333333333333,
+      "post_accuracy": 0.8841666666666667,
+      "bad_write_fraction": 0.11232911543869095,
+      "factor_match": 0.7153392857142857
+    },
+    {
+      "scenario": "common_mode",
+      "mode": "oracle",
+      "accuracy": 0.8883333333333333,
+      "post_accuracy": 0.8883333333333333,
+      "bad_write_fraction": 0.0924818808346085,
+      "factor_match": null
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "equal",
+      "accuracy": 0.5800000000000001,
+      "post_accuracy": 0.5900000000000001,
+      "bad_write_fraction": 0.0,
+      "factor_match": null
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "scalar",
+      "accuracy": 0.8316666666666667,
+      "post_accuracy": 0.8466666666666667,
+      "bad_write_fraction": 0.10193452380952381,
+      "factor_match": null
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "graph",
+      "accuracy": 0.8466666666666667,
+      "post_accuracy": 0.8466666666666667,
+      "bad_write_fraction": 0.126289202683726,
+      "factor_match": null
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "factor",
+      "accuracy": 0.8379166666666666,
+      "post_accuracy": 0.8458333333333333,
+      "bad_write_fraction": 0.123952938167402,
+      "factor_match": 0.2783333333333333
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "multifactor",
+      "accuracy": 0.84375,
+      "post_accuracy": 0.8400000000000001,
+      "bad_write_fraction": 0.13267791165627402,
+      "factor_match": 0.572875
+    },
+    {
+      "scenario": "factor_reversal",
+      "mode": "oracle",
+      "accuracy": 0.8825000000000001,
+      "post_accuracy": 0.8825000000000001,
+      "bad_write_fraction": 0.09098422901915162,
+      "factor_match": null
+    }
+  ],
+  "verification_sweep": [
+    {
+      "verify_prob": 0,
+      "accuracy": 0.5970833333333334,
+      "factor_match": 0.0,
+      "bad_write_fraction": 0.0
+    },
+    {
+      "verify_prob": 0.02,
+      "accuracy": 0.7708333333333333,
+      "factor_match": 0.5803571428571428,
+      "bad_write_fraction": 0.13419485902539746
+    },
+    {
+      "verify_prob": 0.05,
+      "accuracy": 0.83875,
+      "factor_match": 0.6021547619047618,
+      "bad_write_fraction": 0.1171097952707148
+    },
+    {
+      "verify_prob": 0.1,
+      "accuracy": 0.8783333333333333,
+      "factor_match": 0.6737797619047619,
+      "bad_write_fraction": 0.11155712380187788
+    },
+    {
+      "verify_prob": 0.2,
+      "accuracy": 0.8904166666666666,
+      "factor_match": 0.6971130952380953,
+      "bad_write_fraction": 0.10480737590524541
+    },
+    {
+      "verify_prob": 0.3,
+      "accuracy": 0.8891666666666667,
+      "factor_match": 0.6924821428571428,
+      "bad_write_fraction": 0.09750756385911635
+    }
+  ],
+  "representative": {
+    "group": [
+      "B",
+      "C1",
+      "C2",
+      "C3",
+      "D",
+      "E"
+    ],
+    "factor_strength": 0.9500598912283386,
+    "loadings": {
+      "A": 0.2527475318174414,
+      "B": 0.28953294077619096,
+      "C1": 0.4651816252365694,
+      "C2": 0.45336470364115017,
+      "C3": 0.4695671931327036,
+      "D": 0.34616741772104137,
+      "E": 0.2785927950813262,
+      "F": 0.11143018877715412
+    }
+  },
+  "guardrails": [
+    "Latent-factor inference uses sparse verified residual covariance; it is not proof of causal direction.",
+    "The loading threshold and factor-strength threshold are hand-set.",
+    "Without independent verification the hidden factor cannot be grounded.",
+    "If every evidence source and verifier share the same hidden failure, the model cannot manufacture truth."
+  ]
+}

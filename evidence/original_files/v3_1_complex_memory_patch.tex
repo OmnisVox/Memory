@@ -1,0 +1,33 @@
+
+% Experimental Adrianic v3.1 topology-preserving memory extension
+
+\subsection{Complex Topological Memory Field}
+The scalar intensity-memory field $\phi$ cannot encode phase winding or chirality,
+because its source $|\psi|^2$ discards phase information.  Introduce a slow complex
+memory field $\chi(x,y,t)$:
+\begin{align}
+\frac{\partial \chi}{\partial t}
+=
+D_{\chi}\nabla^2\chi
++
+\frac{1}{\tau_{\chi}}\left(\psi-\chi\right).
+\end{align}
+
+The fast-field dynamics acquire a restorative memory channel:
+\begin{align}
+\frac{\partial \psi}{\partial t}\bigg|_{\rm mem}
+=
+\mu_{\chi}\left(\chi-\psi\right).
+\end{align}
+
+The original scalar field $\phi$ may be retained as an intensity/history field,
+while $\chi$ carries phase, amplitude, winding sign, and local complex structure.
+
+Ablation controls:
+\begin{itemize}
+  \item $\mu_{\chi}=0$: no phase-memory feedback.
+  \item $\tau_{\chi}\rightarrow 0$: memory collapses to the instantaneous field.
+  \item $\tau_{\chi}\rightarrow \infty$: frozen memory.
+  \item $D_{\chi}=0$: purely local memory.
+  \item erase $\arg\psi$ while preserving $|\psi|$: direct topology-reconstruction test.
+\end{itemize}

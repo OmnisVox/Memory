@@ -1,0 +1,13 @@
+metric,value
+heldout filtered-value auto utility,0.8913181457149176
+heldout filtered-value gate utility,0.897766391636242
+heldout noisy-value auto utility,0.8831432285683026
+heldout noisy-value gate utility,0.8952521047437955
+noisy-value paired improvement rate,0.9333333333333333
+noisy-value auto writes,42.766666666666666
+noisy-value gate writes,12.566666666666666
+topology-preserving stored template overlap,1.0
+topology-preserving exact stored topology,1.0
+mixed end-to-end loop winding recovery,1.0
+hard-mixed address accuracy,0.9833333333333333
+hard-mixed loop winding recovery,0.9833333333333333
