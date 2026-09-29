@@ -1,0 +1,49 @@
+name: Unpack canonical checkpoint
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/unpack-checkpoint.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Unpack canonical checkpoint into repository root
+        shell: bash
+        run: |
+          set -euo pipefail
+          ZIP="Adrianic_Memory_Project_Canonical_v0_4_1_CHECKPOINT.zip"
+          test -f "$ZIP"
+
+          rm -rf /tmp/adrianic-checkpoint
+          mkdir -p /tmp/adrianic-checkpoint
+          unzip -q "$ZIP" -d /tmp/adrianic-checkpoint
+
+          SRC="/tmp/adrianic-checkpoint/Adrianic_Memory_Project_Canonical"
+          test -d "$SRC"
+
+          cp -a "$SRC"/. .
+
+      - name: Commit extracted checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No extracted changes to commit."
+            exit 0
+          fi
+          git commit -m "Import canonical Adrianic Memory checkpoint v0.4.1"
+          git push origin HEAD:main
